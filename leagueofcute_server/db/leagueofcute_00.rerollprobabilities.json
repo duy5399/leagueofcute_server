@@ -1,0 +1,99 @@
+[{
+  "_id": {
+    "$oid": "654f4d9614c6ce71dc8f9d80"
+  },
+  "level": 1,
+  "tier1": 100,
+  "tier2": 0,
+  "tier3": 0,
+  "tier4": 0,
+  "tier5": 0
+},
+{
+  "_id": {
+    "$oid": "654f4fe614c6ce71dc8f9d81"
+  },
+  "level": 2,
+  "tier1": 100,
+  "tier2": 0,
+  "tier3": 0,
+  "tier4": 0,
+  "tier5": 0
+},
+{
+  "_id": {
+    "$oid": "654f4ff414c6ce71dc8f9d82"
+  },
+  "level": 3,
+  "tier1": 75,
+  "tier2": 25,
+  "tier3": 0,
+  "tier4": 0,
+  "tier5": 0
+},
+{
+  "_id": {
+    "$oid": "654f500a14c6ce71dc8f9d83"
+  },
+  "level": 4,
+  "tier1": 55,
+  "tier2": 30,
+  "tier3": 15,
+  "tier4": 0,
+  "tier5": 0
+},
+{
+  "_id": {
+    "$oid": "654f502a14c6ce71dc8f9d84"
+  },
+  "level": 5,
+  "tier1": 45,
+  "tier2": 33,
+  "tier3": 20,
+  "tier4": 2,
+  "tier5": 0
+},
+{
+  "_id": {
+    "$oid": "654f504714c6ce71dc8f9d85"
+  },
+  "level": 6,
+  "tier1": 25,
+  "tier2": 40,
+  "tier3": 30,
+  "tier4": 5,
+  "tier5": 0
+},
+{
+  "_id": {
+    "$oid": "654f515a14c6ce71dc8f9d86"
+  },
+  "level": 7,
+  "tier1": 19,
+  "tier2": 30,
+  "tier3": 35,
+  "tier4": 15,
+  "tier5": 1
+},
+{
+  "_id": {
+    "$oid": "654f529814c6ce71dc8f9d88"
+  },
+  "level": 8,
+  "tier1": 16,
+  "tier2": 20,
+  "tier3": 35,
+  "tier4": 25,
+  "tier5": 4
+},
+{
+  "_id": {
+    "$oid": "654f52dc14c6ce71dc8f9d89"
+  },
+  "level": 9,
+  "tier1": 9,
+  "tier2": 15,
+  "tier3": 30,
+  "tier4": 30,
+  "tier5": 16
+}]

@@ -1,0 +1,6953 @@
+[{
+  "_id": {
+    "$oid": "6576abd0c9e1ead384af84e4"
+  },
+  "championName": "Melee Minion",
+  "tier": 0,
+  "buyPrice": 0,
+  "border": "Gray",
+  "background": "card_MeleeMinion",
+  "moveSpeed": 3,
+  "criticalStrikeChance": 0,
+  "criticalStrikeDamage": 0,
+  "attackRange": 1,
+  "attackSpeed": 0.8,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 0,
+  "maxMana": 0,
+  "armor": 0,
+  "magicResistance": 0,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.4,
+    "canCrit": false,
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 250,
+      "attackDamage": 20,
+      "sellPrice": 0
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6576ac5bc9e1ead384af84e5"
+  },
+  "championName": "Ranged Minion",
+  "tier": 0,
+  "buyPrice": 0,
+  "border": "Gray",
+  "background": "card_RangedMinion",
+  "moveSpeed": 2,
+  "criticalStrikeChance": 0,
+  "criticalStrikeDamage": 0,
+  "attackRange": 3,
+  "attackSpeed": 0.8,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 0,
+  "maxMana": 0,
+  "armor": 0,
+  "magicResistance": 0,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 3,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1,
+    "canCrit": true,
+    "followTarget": {
+      "speedFly": 15,
+      "triggerOnHit": "HitTarget",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 150,
+      "attackDamage": 30,
+      "sellPrice": 0
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65a4dfff6899d93c93102bb2"
+  },
+  "championName": "Ashe",
+  "tier": 1,
+  "buyPrice": 1,
+  "border": "Gray",
+  "background": "card_Ashe",
+  "idClass": "Ranger",
+  "idOrigin": "Dawnbringer",
+  "attackRange": 3,
+  "attackSpeed": 0.75,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 50,
+  "maxMana": 100,
+  "moveSpeed": 2,
+  "criticalStrikeChance": 0.25,
+  "criticalStrikeDamage": 1.25,
+  "armor": 20,
+  "magicResistance": 20,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 3,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1,
+    "canCrit": true,
+    "followTarget": {
+      "speedFly": 20,
+      "triggerOnHit": "HitTarget",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "abilityName": "Đại Băng Tiễn",
+  "abilityIcon": "skill-hero_Ashe_r",
+  "abilityDescription": "Ashe bắn một mũi tên vào kẻ địch xa nhất và dừng lại ở kẻ địch đầu tiên trúng phải, gây <color=#7a6dff>{hitDamage}</color><sprite name=ap_icon> sát thương phép và làm Choáng <sprite name=stun_icon> chúng trong <color=#c9aa71>{cc_lifetime}</color> giây.",
+  "ability": {
+    "condition": "Active",
+    "skillRange": 15,
+    "targetFilter": "Farthest",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": true,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.3333,
+    "canCrit": false,
+    "fixedDirection": {
+      "activeDistance": 10,
+      "speedFly": 20,
+      "triggerOnHit": "FirstCollision",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AP",
+      "ad": [
+        0
+      ],
+      "ap": [
+        300,
+        450,
+        650
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        0
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": true,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    },
+    "crowdControl": {
+      "buffID": "ashe_R_stun_enemy",
+      "buffOn": "Target",
+      "buffRange": 0,
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        1,
+        1.5,
+        2
+      ],
+      "destroyOnLifeEnding": true,
+      "controlType": "Stun",
+      "addType": "UpdateLifetime",
+      "maxStackUp": 0,
+      "lifeTimeCanChange": true
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 450,
+      "attackDamage": 50,
+      "sellPrice": 2
+    },
+    {
+      "star": 2,
+      "hp": 810,
+      "attackDamage": 90,
+      "sellPrice": 5
+    },
+    {
+      "star": 3,
+      "hp": 1620,
+      "attackDamage": 180,
+      "sellPrice": 15
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65a8c9e2955319cb717d100b"
+  },
+  "championName": "Ahri",
+  "tier": 1,
+  "buyPrice": 1,
+  "border": "Gray",
+  "background": "card_Ahri",
+  "idClass": "Sorcerer",
+  "idOrigin": "Mascot",
+  "attackRange": 3,
+  "attackSpeed": 0.75,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 0,
+  "maxMana": 60,
+  "moveSpeed": 2,
+  "criticalStrikeChance": 0.25,
+  "criticalStrikeDamage": 1.25,
+  "armor": 20,
+  "magicResistance": 20,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 3,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1333,
+    "canCrit": true,
+    "followTarget": {
+      "speedFly": 15,
+      "triggerOnHit": "HitTarget",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "abilityName": "Quả Cầu Ma Thuật",
+  "abilityIcon": "skill-hero_Ahri_q",
+  "abilityDescription": "Ahri bắn ra một quả cầu theo đường thẳng 3 ô, gây <color=#7a6dff>{hitDamage}</color><sprite name=ap_icon> sát thương phép cho tất cả kẻ địch mà nó đi qua. Sau đó, quả cầu quay trở lại chỗ cô ấy, gây <color=#7664f8>{hitDamage}</color><sprite name=ap_icon> sát thương phép cho tất cả kẻ địch mà nó đi qua.",
+  "ability": {
+    "condition": "Active",
+    "skillRange": 7,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": true,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1,
+    "canCrit": false,
+    "flyOutAndBack": {
+      "activeDistance": 6,
+      "speedFly": 10,
+      "triggerOnHit": "EveryCollision",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AP",
+      "ad": [
+        0
+      ],
+      "ap": [
+        175,
+        250,
+        425
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        0
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": true,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 600,
+      "attackDamage": 55,
+      "sellPrice": 2
+    },
+    {
+      "star": 2,
+      "hp": 1080,
+      "attackDamage": 81,
+      "sellPrice": 5
+    },
+    {
+      "star": 3,
+      "hp": 1944,
+      "attackDamage": 145.8,
+      "sellPrice": 15
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65a8fc83955319cb717d100c"
+  },
+  "championName": "Akali",
+  "tier": 3,
+  "buyPrice": 3,
+  "border": "Blue",
+  "background": "card_Akali",
+  "idClass": "Assassin",
+  "idOrigin": "Duelist",
+  "attackRange": 1,
+  "attackSpeed": 0.85,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 0,
+  "maxMana": 30,
+  "moveSpeed": 3,
+  "criticalStrikeChance": 0.25,
+  "criticalStrikeDamage": 1.25,
+  "armor": 20,
+  "magicResistance": 20,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1167,
+    "canCrit": true,
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "abilityName": "Múa Liềm",
+  "abilityIcon": "skill-hero_Akali_e",
+  "abilityDescription": "Akali múa liềm xung quanh bản thân, tấn công kẻ địch trong vòng 1 ô, gây <color=#7a6dff>{hitDamage}</color><sprite name=ap_icon> sát thương phép và giảm <color=#c9aa71>{decreaseMR_mult}</color> Kháng phép <sprite name=mr-pen_icon> của chúng trong <color=#c9aa71>{decreaseMR_lifetime}</color> giây.",
+  "ability": {
+    "condition": "Active",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": true,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.15,
+    "canCrit": false,
+    "aoe": {
+      "aoePos": "Self",
+      "aoeRange": 3,
+      "maxHitNum": 99,
+      "lifeTime": 1,
+      "triggerOnHit": "EveryCollision",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AP",
+      "ad": [
+        0
+      ],
+      "ap": [
+        200,
+        350,
+        500
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        0
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": true,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    },
+    "decreaseMR": {
+      "buffID": "akali_E_decreaseMR_enemy",
+      "buffOn": "Target",
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        2
+      ],
+      "destroyOnLifeEnding": true,
+      "addType": "UpdateLifetime",
+      "lifeTimeCanChange": false,
+      "magicResistanceAdd": [
+        0
+      ],
+      "magicResistanceMult": [
+        0.3,
+        0.4,
+        0.5
+      ],
+      "mrAddCanChange": false,
+      "mrMultCanChange": true
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 650,
+      "attackDamage": 50,
+      "sellPrice": 3
+    },
+    {
+      "star": 2,
+      "hp": 1170,
+      "attackDamage": 90,
+      "sellPrice": 8
+    },
+    {
+      "star": 3,
+      "hp": 2106,
+      "attackDamage": 180,
+      "sellPrice": 26
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65a932f9955319cb717d100d"
+  },
+  "championName": "Alistar",
+  "tier": 4,
+  "buyPrice": 4,
+  "border": "Purple",
+  "background": "card_Alistar",
+  "idClass": "Mystic",
+  "idOrigin": "Mascot",
+  "attackRange": 1,
+  "attackSpeed": 0.6,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 80,
+  "maxMana": 160,
+  "moveSpeed": 3,
+  "criticalStrikeChance": 0.25,
+  "criticalStrikeDamage": 1.25,
+  "armor": 80,
+  "magicResistance": 80,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1167,
+    "canCrit": true,
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "abilityName": "Nghiền Nát",
+  "abilityIcon": "skill-hero_Alistar_q",
+  "abilityDescription": "Alistar đập mạnh xuống đất, gây <color=#7a6dff>{hitDamage}</color><sprite name=ap_icon> sát thương phép và làm Choáng <sprite name=stun_icon> tất cả kẻ địch trong <color=#c9aa71>{cc_lifetime}</color> giây.",
+  "ability": {
+    "condition": "Active",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": true,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1166,
+    "canCrit": false,
+    "aoe": {
+      "aoePos": "Self",
+      "aoeRange": 3,
+      "maxHitNum": 99,
+      "lifeTime": 2,
+      "triggerOnHit": "EveryCollision",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AP",
+      "ad": [
+        0
+      ],
+      "ap": [
+        200,
+        325,
+        1200
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        0
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": true,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    },
+    "crowdControl": {
+      "buffID": "alistar_Q_stun_enemy",
+      "buffOn": "Target",
+      "buffRange": 0,
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        1.5,
+        2,
+        8
+      ],
+      "destroyOnLifeEnding": true,
+      "controlType": "Stun",
+      "addType": "UpdateLifetime",
+      "maxStackUp": 0,
+      "lifeTimeCanChange": true
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 1400,
+      "attackDamage": 90,
+      "sellPrice": 4
+    },
+    {
+      "star": 2,
+      "hp": 2520,
+      "attackDamage": 162,
+      "sellPrice": 11
+    },
+    {
+      "star": 3,
+      "hp": 4536,
+      "attackDamage": 291.6,
+      "sellPrice": 35
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65a93d59955319cb717d100e"
+  },
+  "championName": "Amumu",
+  "tier": 2,
+  "buyPrice": 2,
+  "border": "Green",
+  "background": "card_Amumu",
+  "idClass": "Brawler",
+  "idOrigin": "Yordle",
+  "attackRange": 1,
+  "attackSpeed": 0.65,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 75,
+  "maxMana": 150,
+  "moveSpeed": 3,
+  "criticalStrikeChance": 0.25,
+  "criticalStrikeDamage": 1.25,
+  "armor": 45,
+  "magicResistance": 45,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1311,
+    "canCrit": true,
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "abilityName": "Lời Nguyền Xác Ướp U Sầu",
+  "abilityIcon": "skill-hero_Amumu_r",
+  "abilityDescription": "Amumu trói những đơn vị địch xung quanh với băng gạc của mình, gây <color=#7a6dff>{hitDamage}</color><sprite name=ap_icon> sát thương phép cho tất cả kẻ địch trong vòng 3 ô và làm Choáng <sprite name=stun_icon> chúng trong <color=#c9aa71>{cc_lifetime}</color> giây.",
+  "ability": {
+    "condition": "Active",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": true,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.9,
+    "canCrit": false,
+    "aoe": {
+      "aoePos": "Self",
+      "aoeRange": 5,
+      "maxHitNum": 99,
+      "lifeTime": 2,
+      "triggerOnHit": "EveryCollision",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AP",
+      "ad": [
+        0
+      ],
+      "ap": [
+        100,
+        150,
+        220
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        0
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": true,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    },
+    "crowdControl": {
+      "buffID": "amumu_R_stun_enemy",
+      "buffOn": "Target",
+      "buffRange": 0,
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        1.5,
+        2,
+        2.5
+      ],
+      "destroyOnLifeEnding": true,
+      "controlType": "Stun",
+      "addType": "UpdateLifetime",
+      "maxStackUp": 0,
+      "lifeTimeCanChange": true
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 850,
+      "attackDamage": 45,
+      "sellPrice": 3
+    },
+    {
+      "star": 2,
+      "hp": 1530,
+      "attackDamage": 81,
+      "sellPrice": 8
+    },
+    {
+      "star": 3,
+      "hp": 2754,
+      "attackDamage": 145.8,
+      "sellPrice": 26
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65a94515955319cb717d100f"
+  },
+  "championName": "Blitzcrank",
+  "tier": 1,
+  "buyPrice": 1,
+  "border": "Gray",
+  "background": "card_Blitzcrank",
+  "idClass": "Brawler",
+  "idOrigin": "Hextech",
+  "attackRange": 1,
+  "attackSpeed": 0.5,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 70,
+  "maxMana": 120,
+  "moveSpeed": 3,
+  "criticalStrikeChance": 0.25,
+  "criticalStrikeDamage": 1.25,
+  "armor": 45,
+  "magicResistance": 45,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1167,
+    "canCrit": true,
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "abilityName": "Trường Điện Từ",
+  "abilityIcon": "skill-hero_Bliz_r",
+  "abilityDescription": "Blitzcrank tạo một vùng trường điện từ xung quanh bản thân, gây <color=#7a6dff>{hitDamage}</color><sprite name=ap_icon> sát thương phép cho tất cả kẻ địch trong vòng 3 ô và làm Câm lặng <sprite name=silence_icon> chúng trong <color=#c9aa71>{cc_lifetime}</color> giây.",
+  "ability": {
+    "condition": "Active",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": true,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1167,
+    "canCrit": false,
+    "aoe": {
+      "aoePos": "Self",
+      "aoeRange": 5,
+      "maxHitNum": 99,
+      "lifeTime": 1,
+      "triggerOnHit": "EveryCollision",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AP",
+      "ad": [
+        0
+      ],
+      "ap": [
+        100,
+        150,
+        220
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        0
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": true,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    },
+    "crowdControl": {
+      "buffID": "blitz_R_stun_enemy",
+      "buffOn": "Target",
+      "buffRange": 0,
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        1,
+        1.5,
+        2
+      ],
+      "destroyOnLifeEnding": true,
+      "controlType": "Silence",
+      "addType": "UpdateLifetime",
+      "maxStackUp": 0,
+      "lifeTimeCanChange": true
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 650,
+      "attackDamage": 65,
+      "sellPrice": 1
+    },
+    {
+      "star": 2,
+      "hp": 1170,
+      "attackDamage": 117,
+      "sellPrice": 3
+    },
+    {
+      "star": 3,
+      "hp": 2106,
+      "attackDamage": 210.6,
+      "sellPrice": 9
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65a94a78955319cb717d1010"
+  },
+  "championName": "Brand",
+  "tier": 4,
+  "buyPrice": 4,
+  "border": "Purple",
+  "background": "card_Brand",
+  "idClass": "Sorcerer",
+  "idOrigin": "Mascot",
+  "attackRange": 3,
+  "attackSpeed": 0.7,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 0,
+  "maxMana": 80,
+  "moveSpeed": 2,
+  "criticalStrikeChance": 0.25,
+  "criticalStrikeDamage": 1.25,
+  "armor": 25,
+  "magicResistance": 20,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 3,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1,
+    "canCrit": true,
+    "followTarget": {
+      "speedFly": 15,
+      "triggerOnHit": "HitTarget",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "abilityName": "Bão Lửa",
+  "abilityIcon": "skill-hero_Brand_r",
+  "abilityDescription": "Brand phóng một quả cầu lửa nảy vào kẻ thù xa nhất. Quả cầu lửa nảy sang một kẻ địch ngẫu nhiên trong vòng 3 ô tính từ kẻ địch cuối cùng trúng đòn, tối đa <color=#c9aa71>{maxBounces}</color> lần, gây <color=#7a6dff>{hitDamage}</color><sprite name=ap_icon> sát thương phép với mỗi lần nảy.",
+  "ability": {
+    "condition": "Active",
+    "skillRange": 15,
+    "targetFilter": "Farthest",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": true,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1451,
+    "canCrit": false,
+    "bounce": {
+      "maxBounces": [
+        5,
+        6,
+        20
+      ],
+      "maxBounceCanChange": true,
+      "speedFly": 10,
+      "bounceRange": 5,
+      "triggerOnHit": "HitTarget",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AP",
+      "ad": [
+        0
+      ],
+      "ap": [
+        225,
+        300,
+        600
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        0
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": true,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 700,
+      "attackDamage": 55,
+      "sellPrice": 4
+    },
+    {
+      "star": 2,
+      "hp": 1260,
+      "attackDamage": 99,
+      "sellPrice": 11
+    },
+    {
+      "star": 3,
+      "hp": 2268,
+      "attackDamage": 178.2,
+      "sellPrice": 35
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65a95a10955319cb717d1011"
+  },
+  "championName": "Corki",
+  "tier": 2,
+  "buyPrice": 2,
+  "border": "Green",
+  "background": "card_Corki",
+  "idClass": "Ranger",
+  "idOrigin": "Yordle",
+  "attackRange": 3,
+  "attackSpeed": 0.7,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 25,
+  "maxMana": 50,
+  "moveSpeed": 2,
+  "criticalStrikeChance": 0.25,
+  "criticalStrikeDamage": 1.25,
+  "armor": 25,
+  "magicResistance": 25,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 3,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1,
+    "canCrit": true,
+    "followTarget": {
+      "speedFly": 20,
+      "triggerOnHit": "HitTarget",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "abilityName": "Tên Lửa Định Hướng",
+  "abilityIcon": "skill-hero_Corki_r",
+  "abilityDescription": "Corki bắn một tên lửa về phía mục tiêu và phát nổ khi va chạm, gây <color=#7a6dff>{hitDamage}</color><sprite name=ap_icon> sát thương phép cho kẻ địch ở gần.",
+  "ability": {
+    "condition": "Active",
+    "skillRange": 3,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": true,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1077,
+    "canCrit": false,
+    "fixedDirection": {
+      "activeDistance": 10,
+      "speedFly": 15,
+      "triggerOnHit": "FirstCollision",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "AroundTarget",
+      "aoeRange": 3,
+      "aoeMultiplier": 1,
+      "damageType": "AP",
+      "ad": [
+        0
+      ],
+      "ap": [
+        180,
+        220,
+        290
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        0
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": true,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 650,
+      "attackDamage": 55,
+      "sellPrice": 2
+    },
+    {
+      "star": 2,
+      "hp": 1170,
+      "attackDamage": 99,
+      "sellPrice": 5
+    },
+    {
+      "star": 3,
+      "hp": 2106,
+      "attackDamage": 178.2,
+      "sellPrice": 17
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65a9e80f652e9ce2c29599cb"
+  },
+  "championName": "Darius",
+  "tier": 1,
+  "buyPrice": 1,
+  "border": "Gray",
+  "background": "card_Darius",
+  "idClass": "Defender",
+  "idOrigin": "Nightbringer",
+  "attackRange": 1,
+  "attackSpeed": 0.5,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 70,
+  "maxMana": 120,
+  "moveSpeed": 3,
+  "criticalStrikeChance": 0.25,
+  "criticalStrikeDamage": 1.25,
+  "armor": 40,
+  "magicResistance": 40,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1167,
+    "canCrit": true,
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "abilityName": "Tàn Sát",
+  "abilityIcon": "skill-hero_Darius_q",
+  "abilityDescription": "Darius xoay chiếc rìu của mình theo vòng tròn, gây <color=#7664f8>{hitDamage}</color><sprite name=ap_icon> sát thương phép và hồi phục <color=#1f995c>{heal_healing}</color> Máu <sprite name=heal_icon> cho bản thân với mỗi kẻ địch trúng phải.",
+  "ability": {
+    "condition": "Active",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": true,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.2,
+    "canCrit": false,
+    "aoe": {
+      "aoePos": "Self",
+      "aoeRange": 3,
+      "maxHitNum": 99,
+      "lifeTime": 1,
+      "triggerOnHit": "EveryCollision",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AP",
+      "ad": [
+        0
+      ],
+      "ap": [
+        200,
+        275,
+        350
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        0
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": true,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    },
+    "heal": {
+      "buffID": "darius_Q_heal_self",
+      "buffOn": "Self",
+      "buffRange": 0,
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        1
+      ],
+      "destroyOnLifeEnding": true,
+      "addType": "None",
+      "maxStackUp": 99,
+      "lifeTimeCanChange": false,
+      "healing": [
+        120,
+        140,
+        160
+      ],
+      "extraMaxHpPercentage": [
+        0
+      ],
+      "extraCurrentHpPercentage": [
+        0
+      ],
+      "extraMissingHpPercentage": [
+        0
+      ],
+      "healingCanChange": true,
+      "extraMaxHpPercentageCanChange": false,
+      "extraCurrentHpPercentageCanChange": false,
+      "extraMissingHpPercentageCanChange": false
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 650,
+      "attackDamage": 60,
+      "sellPrice": 1
+    },
+    {
+      "star": 2,
+      "hp": 1170,
+      "attackDamage": 108,
+      "sellPrice": 3
+    },
+    {
+      "star": 3,
+      "hp": 2106,
+      "attackDamage": 194.4,
+      "sellPrice": 9
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65aa11bb652e9ce2c29599cc"
+  },
+  "championName": "Ezreal",
+  "tier": 5,
+  "buyPrice": 5,
+  "border": "Gold",
+  "background": "card_Ezreal",
+  "idClass": "Ranger",
+  "idOrigin": "Duelist",
+  "attackRange": 4,
+  "attackSpeed": 0.9,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 90,
+  "maxMana": 150,
+  "moveSpeed": 2,
+  "criticalStrikeChance": 0.25,
+  "criticalStrikeDamage": 1.25,
+  "armor": 20,
+  "magicResistance": 20,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 4,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1,
+    "canCrit": true,
+    "followTarget": {
+      "speedFly": 20,
+      "triggerOnHit": "HitTarget",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "abilityName": "Cung Ánh Sáng",
+  "abilityIcon": "skill-hero_Ezreal_r",
+  "abilityDescription": "Ezreal bắn về phía kẻ địch xa nhất, gây <color=#7a6dff>{hitDamage}</color><sprite name=ap_icon> sát thương phép lên tất cả kẻ địch mà nó đi qua và làm giảm <color=#c9aa71>{decreaseAS_mult}</color> Tốc độ đánh <sprite name=as_icon> trong <color=#c9aa71>{decreaseAS_lifetime}</color> giây.",
+  "ability": {
+    "condition": "Active",
+    "skillRange": 15,
+    "targetFilter": "Farthest",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": true,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.7241,
+    "canCrit": false,
+    "fixedDirection": {
+      "activeDistance": 10,
+      "speedFly": 15,
+      "triggerOnHit": "EveryCollision",
+      "hitRange": 2
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AP",
+      "ad": [
+        0
+      ],
+      "ap": [
+        250,
+        450,
+        9999
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        0
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": true,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    },
+    "decreaseAS": {
+      "buffID": "ezreal_R_decreaseAS_enemy",
+      "buffOn": "Target",
+      "buffRange": 0,
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        5
+      ],
+      "destroyOnLifeEnding": true,
+      "addType": "UpdateLifetime",
+      "maxStackUp": 0,
+      "lifeTimeCanChange": false,
+      "attackSpeedMult": [
+        0.5
+      ],
+      "attackSpeedMultCanChange": false
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 750,
+      "attackDamage": 80,
+      "sellPrice": 5
+    },
+    {
+      "star": 2,
+      "hp": 1350,
+      "attackDamage": 144,
+      "sellPrice": 14
+    },
+    {
+      "star": 3,
+      "hp": 2430,
+      "attackDamage": 259.2,
+      "sellPrice": 44
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65aa1dff652e9ce2c29599cd"
+  },
+  "championName": "Garen",
+  "tier": 3,
+  "buyPrice": 3,
+  "border": "Blue",
+  "background": "card_Garen",
+  "idClass": "Defender",
+  "idOrigin": "Dawnbringer",
+  "attackRange": 1,
+  "attackSpeed": 0.75,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 75,
+  "maxMana": 150,
+  "moveSpeed": 3,
+  "criticalStrikeChance": 0.25,
+  "criticalStrikeDamage": 1.25,
+  "armor": 45,
+  "magicResistance": 45,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1167,
+    "canCrit": true,
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "abilityName": "Công Lý Demacia",
+  "abilityIcon": "skill-hero_Garen_r",
+  "abilityDescription": "Garen bổ kiếm xuống kẻ địch ở gần, gây <color=#7a6dff>{hitDamage}</color><sprite name=ap_icon> sát thương phép ({adMultiplier} SMCK <sprite name=ad_icon> + {ap} <sprite name=ap_icon>) lên kẻ địch trong vòng 2 ô và làm Choáng <sprite name=stun_icon> chúng <color=#c9aa71>{cc_lifetime}</color> giây.",
+  "ability": {
+    "condition": "Active",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": true,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1166,
+    "canCrit": false,
+    "aoe": {
+      "aoePos": "Self",
+      "aoeRange": 3,
+      "maxHitNum": 99,
+      "lifeTime": 2,
+      "triggerOnHit": "EveryCollision",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AP",
+      "ad": [
+        0
+      ],
+      "ap": [
+        50,
+        80,
+        180
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1,
+        1,
+        4
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": true,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": true,
+      "apMultiplierCanChange": false
+    },
+    "crowdControl": {
+      "buffID": "garen_R_stun_enemy",
+      "buffOn": "Target",
+      "buffRange": 0,
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        1,
+        2,
+        5
+      ],
+      "destroyOnLifeEnding": true,
+      "controlType": "Stun",
+      "addType": "UpdateLifetime",
+      "maxStackUp": 0,
+      "lifeTimeCanChange": true
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 850,
+      "attackDamage": 70,
+      "sellPrice": 3
+    },
+    {
+      "star": 2,
+      "hp": 1530,
+      "attackDamage": 126,
+      "sellPrice": 8
+    },
+    {
+      "star": 3,
+      "hp": 2754,
+      "attackDamage": 226.8,
+      "sellPrice": 26
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65aa250f652e9ce2c29599ce"
+  },
+  "championName": "Janna",
+  "tier": 3,
+  "buyPrice": 3,
+  "border": "Blue",
+  "background": "card_Janna",
+  "idClass": "Mystic",
+  "idOrigin": "Hextech",
+  "attackRange": 3,
+  "attackSpeed": 0.7,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 50,
+  "maxMana": 125,
+  "moveSpeed": 2,
+  "criticalStrikeChance": 0.25,
+  "criticalStrikeDamage": 1.25,
+  "armor": 20,
+  "magicResistance": 20,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 3,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1167,
+    "canCrit": true,
+    "followTarget": {
+      "speedFly": 15,
+      "triggerOnHit": "HitTarget",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "abilityName": "Gió Mùa",
+  "abilityIcon": "skill-hero_Janna_r",
+  "abilityDescription": "Janna triệu hồi một cơn gió trong phạm vi 3 ô xung quanh cô ấy, hồi máu cho tất cả đồng minh trong đó bằng <color=#1f995c>{heal_MaxHpPercentage} HP tối đa</color><sprite name=heal_icon> của họ mỗi <color=#c9aa71>{tickInterval}</color> giây, kỹ năng kéo dài trong <color=#c9aa71>{timeChanneling}</color> giây.",
+  "ability": {
+    "condition": "Active",
+    "skillRange": 3,
+    "targetFilter": "None",
+    "needTarget": false,
+    "canUseSelf": true,
+    "canBeSilenced": true,
+    "searchAmong": "Allies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1166,
+    "canCrit": false,
+    "channelling": {
+      "timeChanneling": 3,
+      "tickInterval": 0.5,
+      "tickTimes": 6,
+      "triggerRightAway": false
+    },
+    "heal": {
+      "buffID": "janna_R_heal_allies",
+      "buffOn": "Allies",
+      "buffRange": 3,
+      "maxHitNum": 99,
+      "haveLifeTime": true,
+      "lifeTime": [
+        1
+      ],
+      "destroyOnLifeEnding": true,
+      "addType": "None",
+      "maxStackUp": 99,
+      "lifeTimeCanChange": false,
+      "healing": [
+        0
+      ],
+      "extraMaxHpPercentage": [
+        0.035,
+        0.06,
+        0.3
+      ],
+      "extraCurrentHpPercentage": [
+        0
+      ],
+      "extraMissingHpPercentage": [
+        0
+      ],
+      "healingCanChange": false,
+      "extraMaxHpPercentageCanChange": true,
+      "extraCurrentHpPercentageCanChange": false,
+      "extraMissingHpPercentageCanChange": false
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 600,
+      "attackDamage": 70,
+      "sellPrice": 3
+    },
+    {
+      "star": 2,
+      "hp": 1080,
+      "attackDamage": 126,
+      "sellPrice": 8
+    },
+    {
+      "star": 3,
+      "hp": 1944,
+      "attackDamage": 226.8,
+      "sellPrice": 26
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65aa2524652e9ce2c29599cf"
+  },
+  "championName": "Jax",
+  "tier": 2,
+  "buyPrice": 2,
+  "border": "Green",
+  "background": "card_Jax",
+  "idClass": "Skirmisher",
+  "idOrigin": "Duelist",
+  "attackRange": 1,
+  "attackSpeed": 0.7,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 70,
+  "maxMana": 140,
+  "moveSpeed": 3,
+  "criticalStrikeChance": 0.25,
+  "criticalStrikeDamage": 1.25,
+  "armor": 45,
+  "magicResistance": 45,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1167,
+    "canCrit": true,
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "abilityName": "Phản Công",
+  "abilityIcon": "skill-hero_Jax_e",
+  "abilityDescription": "Jax vào thế phòng thủ trong <color=#c9aa71>{timeChanneling}</color> giây, né tránh mọi đòn tấn công cơ bản. Sau đó tấn công tất cả kẻ địch ở gần, gây <color=#7a6dff>{hitDamage}</color><sprite name=ap_icon> sát thương phép và làm Choáng <sprite name=stun_icon> chúng trong <color=#c9aa71>{cc_lifetime}</color> giây.",
+  "ability": {
+    "condition": "Active",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": true,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1166,
+    "canCrit": false,
+    "aoe": {
+      "aoePos": "Self",
+      "aoeRange": 3,
+      "maxHitNum": 99,
+      "lifeTime": 1,
+      "triggerOnHit": "EveryCollision",
+      "hitRange": 0.3
+    },
+    "dodge": {
+      "buffID": "jax_E_dodge_self",
+      "buffOn": "Self",
+      "buffRange": 0,
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        2
+      ],
+      "destroyOnLifeEnding": true,
+      "addType": "UpdateLifetime",
+      "maxStackUp": 0,
+      "lifeTimeCanChange": false,
+      "dodgeLifetime": [
+        2
+      ],
+      "dodgeLifetimeCanChange": false
+    },
+    "channelling": {
+      "timeChanneling": 2,
+      "tickInterval": 2,
+      "tickTimes": 1,
+      "triggerRightAway": false
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AP",
+      "ad": [
+        0
+      ],
+      "ap": [
+        225,
+        350,
+        750
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        0
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": true,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    },
+    "crowdControl": {
+      "buffID": "jax_E_stun_enemy",
+      "buffOn": "Target",
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        1,
+        1.25,
+        1.5
+      ],
+      "destroyOnLifeEnding": true,
+      "controlType": "Stun",
+      "addType": "UpdateLifetime",
+      "lifeTimeCanChange": true
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 750,
+      "attackDamage": 55,
+      "sellPrice": 2
+    },
+    {
+      "star": 2,
+      "hp": 1350,
+      "attackDamage": 99,
+      "sellPrice": 5
+    },
+    {
+      "star": 3,
+      "hp": 2430,
+      "attackDamage": 178.2,
+      "sellPrice": 17
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65aa2708652e9ce2c29599d0"
+  },
+  "championName": "Jinx",
+  "tier": 3,
+  "buyPrice": 3,
+  "border": "Blue",
+  "background": "card_Jinx",
+  "idClass": "Ranger",
+  "idOrigin": "Hextech",
+  "attackRange": 4,
+  "attackSpeed": 0.75,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 20,
+  "maxMana": 80,
+  "moveSpeed": 2,
+  "criticalStrikeChance": 0.25,
+  "criticalStrikeDamage": 1.25,
+  "armor": 20,
+  "magicResistance": 20,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 4,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1167,
+    "canCrit": true,
+    "followTarget": {
+      "speedFly": 20,
+      "triggerOnHit": "HitTarget",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "abilityName": "Tên Lửa Đạn Đạo Siêu Khủng Khiếp!",
+  "abilityIcon": "skill-hero_Jinx_r",
+  "abilityDescription": "Jinx bắn một tên lửa vào mục tiêu và phát nổ khi va chạm, gây <color=#7a6dff>{hitDamage}</color><sprite name=ap_icon> sát thương phép cho tất cả kẻ địch ở gần và làm Choáng <sprite name=stun_icon> chúng trong <color=#c9aa71>{cc_lifetime}</color> giây.",
+  "ability": {
+    "condition": "Active",
+    "skillRange": 15,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": true,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.7875,
+    "canCrit": false,
+    "fixedDirection": {
+      "activeDistance": 10,
+      "speedFly": 15,
+      "triggerOnHit": "FirstCollision",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "AroundTarget",
+      "aoeRange": 3,
+      "aoeMultiplier": 1,
+      "damageType": "AP",
+      "ad": [
+        0
+      ],
+      "ap": [
+        225,
+        335,
+        525
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        0
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": true,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    },
+    "crowdControl": {
+      "buffID": "jinx_R_stun_enemy",
+      "buffOn": "Enemies",
+      "buffRange": 3,
+      "maxHitNum": 99,
+      "haveLifeTime": true,
+      "lifeTime": [
+        1.5
+      ],
+      "destroyOnLifeEnding": true,
+      "controlType": "Stun",
+      "addType": "UpdateLifetime",
+      "maxStackUp": 0,
+      "lifeTimeCanChange": false
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 650,
+      "attackDamage": 75,
+      "sellPrice": 3
+    },
+    {
+      "star": 2,
+      "hp": 1170,
+      "attackDamage": 135,
+      "sellPrice": 8
+    },
+    {
+      "star": 3,
+      "hp": 2106,
+      "attackDamage": 243,
+      "sellPrice": 26
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65aa98a1652e9ce2c29599d1"
+  },
+  "championName": "Karthus",
+  "tier": 5,
+  "buyPrice": 5,
+  "border": "Gold",
+  "background": "card_Karthus",
+  "idClass": "Sorcerer",
+  "idOrigin": "Nightbringer",
+  "attackRange": 3,
+  "attackSpeed": 0.65,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 40,
+  "maxMana": 125,
+  "moveSpeed": 2,
+  "criticalStrikeChance": 0.25,
+  "criticalStrikeDamage": 1.25,
+  "armor": 25,
+  "magicResistance": 20,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 3,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1167,
+    "canCrit": true,
+    "followTarget": {
+      "speedFly": 15,
+      "triggerOnHit": "HitTarget",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "abilityName": "Khúc Cầu Hồn",
+  "abilityIcon": "skill-hero_Karthus_r",
+  "abilityDescription": "Karthus vận sức trong <color=#c9aa71>{timeChanneling}</color> giây, sau đó gây <color=#7a6dff>{hitDamage}</color><sprite name=ap_icon> sát thương phép lên tất cả kẻ địch.",
+  "ability": {
+    "condition": "Active",
+    "skillRange": 15,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": true,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.5,
+    "canCrit": false,
+    "channelling": {
+      "timeChanneling": 1,
+      "tickInterval": 1,
+      "tickTimes": 1,
+      "triggerRightAway": false
+    },
+    "aoe": {
+      "aoePos": "Self",
+      "aoeRange": 15,
+      "maxHitNum": 99,
+      "lifeTime": 1,
+      "triggerOnHit": "EveryCollision",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AP",
+      "ad": [
+        0
+      ],
+      "ap": [
+        350,
+        600,
+        9999
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        0
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": true,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    },
+    "crowdControl": {
+      "buffID": "karthus_R_enemy",
+      "buffOn": "Enemies",
+      "buffRange": 15,
+      "maxHitNum": 99,
+      "haveLifeTime": true,
+      "lifeTime": [
+        1
+      ],
+      "destroyOnLifeEnding": true,
+      "controlType": "None",
+      "addType": "UpdateLifetime",
+      "maxStackUp": 0,
+      "lifeTimeCanChange": false
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 850,
+      "attackDamage": 65,
+      "sellPrice": 5
+    },
+    {
+      "star": 2,
+      "hp": 1530,
+      "attackDamage": 117,
+      "sellPrice": 14
+    },
+    {
+      "star": 3,
+      "hp": 2754,
+      "attackDamage": 210.6,
+      "sellPrice": 44
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65aaa459652e9ce2c29599d2"
+  },
+  "championName": "Katarina",
+  "tier": 3,
+  "buyPrice": 3,
+  "border": "Blue",
+  "background": "card_Katarina",
+  "idClass": "Assassin",
+  "idOrigin": "Nightbringer",
+  "attackRange": 1,
+  "attackSpeed": 0.65,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 0,
+  "maxMana": 90,
+  "moveSpeed": 3,
+  "criticalStrikeChance": 0.25,
+  "criticalStrikeDamage": 1.25,
+  "armor": 20,
+  "magicResistance": 20,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1167,
+    "canCrit": true,
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "abilityName": "Bông Sen Tử Thần",
+  "abilityIcon": "skill-hero_Katarina_r",
+  "abilityDescription": "Katarina vận sức trong <color=#c9aa71>{timeChanneling}</color> giây, đồng thời ném <color=#c9aa71>{tickTimes}</color> con dao vào tối đa <color=#c9aa71>{aoe_maxHitNum}</color> kẻ địch trong 2 ô, gây <color=#7a6dff>{hitDamage}</color><sprite name=ap_icon> sát thương phép mỗi đợt.",
+  "ability": {
+    "condition": "Active",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": true,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1,
+    "canCrit": false,
+    "channelling": {
+      "timeChanneling": 2.5,
+      "tickInterval": 0.1667,
+      "tickTimes": 15,
+      "triggerRightAway": false
+    },
+    "aoe": {
+      "aoePos": "Self",
+      "aoeRange": 3,
+      "maxHitNum": 6,
+      "lifeTime": 1,
+      "triggerOnHit": "EveryCollision",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AP",
+      "ad": [
+        0
+      ],
+      "ap": [
+        44,
+        67,
+        100
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        0
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": true,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 500,
+      "attackDamage": 65,
+      "sellPrice": 3
+    },
+    {
+      "star": 2,
+      "hp": 900,
+      "attackDamage": 117,
+      "sellPrice": 8
+    },
+    {
+      "star": 3,
+      "hp": 1620,
+      "attackDamage": 210.6,
+      "sellPrice": 26
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65aaabee652e9ce2c29599d3"
+  },
+  "championName": "Kennen",
+  "tier": 3,
+  "buyPrice": 3,
+  "border": "Blue",
+  "background": "card_Kennen",
+  "idClass": "Skirmisher",
+  "idOrigin": "Yordle",
+  "attackRange": 2,
+  "attackSpeed": 0.65,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 50,
+  "maxMana": 125,
+  "moveSpeed": 3,
+  "criticalStrikeChance": 0.25,
+  "criticalStrikeDamage": 1.25,
+  "armor": 30,
+  "magicResistance": 30,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 2,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1167,
+    "canCrit": true,
+    "followTarget": {
+      "speedFly": 15,
+      "triggerOnHit": "HitTarget",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "abilityName": "Bão Sấm Sét",
+  "abilityIcon": "skill-hero_Kennen_r",
+  "abilityDescription": "Kennen triệu hồi một cơn bão xung quanh bản thân trong <color=#c9aa71>{timeChanneling}</color> giây, gây <color=#7a6dff>{hitDamage}</color><sprite name=ap_icon> sát thương phép mỗi giây cho kẻ địch trong vòng 2 ô và giảm <color=#c9aa71>{decreaseMR_mult}</color> Kháng phép <sprite name=mr-pen_icon> của chúng trong vòng <color=#c9aa71>{decreaseMR_lifetime}</color> giây.",
+  "ability": {
+    "condition": "Active",
+    "skillRange": 2,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": true,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1,
+    "canCrit": false,
+    "channelling": {
+      "timeChanneling": 3,
+      "tickInterval": 0.5,
+      "tickTimes": 6,
+      "triggerRightAway": false
+    },
+    "aoe": {
+      "aoePos": "Self",
+      "aoeRange": 3,
+      "maxHitNum": 99,
+      "lifeTime": 1,
+      "triggerOnHit": "EveryCollision",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AP",
+      "ad": [
+        0
+      ],
+      "ap": [
+        37.5,
+        75,
+        112.5
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        0
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": true,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    },
+    "decreaseMR": {
+      "buffID": "kennen_R_decreaseMR_enemy",
+      "buffOn": "Target",
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        3
+      ],
+      "destroyOnLifeEnding": true,
+      "addType": "UpdateLifetime",
+      "lifeTimeCanChange": false,
+      "magicResistanceAdd": [
+        0
+      ],
+      "magicResistanceMult": [
+        0.3,
+        0.4,
+        0.5
+      ],
+      "mrAddCanChange": false,
+      "mrMultCanChange": true
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 650,
+      "attackDamage": 60,
+      "sellPrice": 3
+    },
+    {
+      "star": 2,
+      "hp": 1170,
+      "attackDamage": 108,
+      "sellPrice": 8
+    },
+    {
+      "star": 3,
+      "hp": 2106,
+      "attackDamage": 194.4,
+      "sellPrice": 26
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65aab4a4652e9ce2c29599d4"
+  },
+  "championName": "Lee Sin",
+  "tier": 3,
+  "buyPrice": 3,
+  "border": "Blue",
+  "background": "card_LeeSin",
+  "idClass": "Skirmisher",
+  "idOrigin": "Nightbringer",
+  "attackRange": 1,
+  "attackSpeed": 0.75,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 30,
+  "maxMana": 80,
+  "moveSpeed": 3,
+  "criticalStrikeChance": 0.25,
+  "criticalStrikeDamage": 1.25,
+  "armor": 35,
+  "magicResistance": 35,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1167,
+    "canCrit": true,
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "abilityName": "Dư Chấn",
+  "abilityIcon": "skill-hero_LeeSin_e",
+  "abilityDescription": "Lee Sin đập xuống đất, gây <color=#7a6dff>{hitDamage}</color><sprite name=ap_icon> sát thương phép cho kẻ địch ở gần và giảm <color=#c9aa71>{decreaseAS_mult}</color> Tốc độ đánh <sprite name=as_icon> của chúng trong <color=#c9aa71>{decreaseAS_lifetime}</color> giây.",
+  "ability": {
+    "condition": "Active",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": true,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1667,
+    "canCrit": false,
+    "aoe": {
+      "aoePos": "Self",
+      "aoeRange": 3,
+      "maxHitNum": 99,
+      "lifeTime": 1,
+      "triggerOnHit": "EveryCollision",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AP",
+      "ad": [
+        0
+      ],
+      "ap": [
+        200,
+        350,
+        600
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        0
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": true,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    },
+    "decreaseAS": {
+      "buffID": "leesin_E_decreaseAS_enemy",
+      "buffOn": "Target",
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        3
+      ],
+      "destroyOnLifeEnding": true,
+      "addType": "UpdateLifetime",
+      "lifeTimeCanChange": false,
+      "attackSpeedMult": [
+        0.4
+      ],
+      "attackSpeedMultCanChange": false
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 800,
+      "attackDamage": 60,
+      "sellPrice": 3
+    },
+    {
+      "star": 2,
+      "hp": 1440,
+      "attackDamage": 108,
+      "sellPrice": 8
+    },
+    {
+      "star": 3,
+      "hp": 2592,
+      "attackDamage": 194.4,
+      "sellPrice": 26
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65ab423bbe21fbcc85021d10"
+  },
+  "championName": "Leona",
+  "tier": 1,
+  "buyPrice": 1,
+  "border": "Gray",
+  "background": "card_Leona",
+  "idClass": "Defender",
+  "idOrigin": "Dawnbringer",
+  "attackRange": 1,
+  "attackSpeed": 0.55,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 60,
+  "maxMana": 120,
+  "moveSpeed": 3,
+  "criticalStrikeChance": 0.25,
+  "criticalStrikeDamage": 1.25,
+  "armor": 45,
+  "magicResistance": 45,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1333,
+    "canCrit": true,
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "abilityName": "Nhật Thực",
+  "abilityIcon": "skill-hero_Leona_w",
+  "abilityDescription": "Leona bảo vệ bản thân bằng một tấm khiên ánh sáng, tăng <color=#c9aa71>{increaseAR_add}</color> Giáp <sprite name=ar_icon> và <color=#c9aa71>{increaseMR_add}</color> Kháng phép <sprite name=mr_icon> trong <color=#c9aa71>{increaseAR_lifetime}</color> giây.",
+  "ability": {
+    "condition": "Active",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": false,
+    "canUseSelf": true,
+    "canBeSilenced": true,
+    "searchAmong": "Allies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": true,
+    "delayTrigger": 0.2632,
+    "canCrit": false,
+    "increaseAR": {
+      "buffID": "leona_W_increaseAR_self",
+      "buffOn": "Self",
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        4
+      ],
+      "destroyOnLifeEnding": true,
+      "addType": "UpdateLifetime",
+      "lifeTimeCanChange": false,
+      "armorAdd": [
+        100,
+        150,
+        300
+      ],
+      "armorMult": [
+        0
+      ],
+      "armorAddCanChange": true,
+      "armorMultCanChange": false
+    },
+    "increaseMR": {
+      "buffID": "leona_W_increaseMR_self",
+      "buffOn": "Self",
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        4
+      ],
+      "destroyOnLifeEnding": true,
+      "addType": "UpdateLifetime",
+      "lifeTimeCanChange": false,
+      "magicResistanceAdd": [
+        100,
+        150,
+        300
+      ],
+      "magicResistanceMult": [
+        0
+      ],
+      "magicResistanceAddCanChange": true,
+      "magicResistanceMultCanChange": false
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 800,
+      "attackDamage": 60,
+      "sellPrice": 3
+    },
+    {
+      "star": 2,
+      "hp": 1440,
+      "attackDamage": 108,
+      "sellPrice": 8
+    },
+    {
+      "star": 3,
+      "hp": 2592,
+      "attackDamage": 194.4,
+      "sellPrice": 26
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65ab658dbe21fbcc85021d11"
+  },
+  "championName": "Lux",
+  "tier": 5,
+  "buyPrice": 5,
+  "border": "Gold",
+  "background": "card_Lux",
+  "idClass": "Sorcerer",
+  "idOrigin": "Dawnbringer",
+  "attackRange": 4,
+  "attackSpeed": 0.85,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 80,
+  "maxMana": 80,
+  "moveSpeed": 2,
+  "criticalStrikeChance": 0.25,
+  "criticalStrikeDamage": 1.25,
+  "armor": 20,
+  "magicResistance": 20,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 4,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1,
+    "canCrit": true,
+    "followTarget": {
+      "speedFly": 15,
+      "triggerOnHit": "HitTarget",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "abilityName": "Cầu Vồng Tối Thượng",
+  "abilityIcon": "skill-hero_Lux_r",
+  "abilityDescription": "Lux bắn ra một vụ nổ nguyên tố, gây <color=#7a6dff>{hitDamage}</color><sprite name=ap_icon> sát thương phép lên tất cả kẻ địch trên một đường thẳng.",
+  "ability": {
+    "condition": "Active",
+    "skillRange": 15,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": true,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.3,
+    "canCrit": false,
+    "channelling": {
+      "timeChanneling": 1,
+      "tickInterval": 1,
+      "tickTimes": 1,
+      "triggerRightAway": false
+    },
+    "aoe": {
+      "aoePos": "Self",
+      "aoeRange": 1,
+      "maxHitNum": 99,
+      "lifeTime": 1,
+      "triggerOnHit": "EveryCollision",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AP",
+      "ad": [
+        0
+      ],
+      "ap": [
+        550,
+        900,
+        9999
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        0
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": true,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 850,
+      "attackDamage": 55,
+      "sellPrice": 5
+    },
+    {
+      "star": 2,
+      "hp": 1530,
+      "attackDamage": 99,
+      "sellPrice": 14
+    },
+    {
+      "star": 3,
+      "hp": 2754,
+      "attackDamage": 178.2,
+      "sellPrice": 44
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65ab678bbe21fbcc85021d12"
+  },
+  "championName": "Malphite",
+  "tier": 2,
+  "buyPrice": 2,
+  "border": "Green",
+  "background": "card_Malphite",
+  "idClass": "Brawler",
+  "idOrigin": "Mascot",
+  "attackRange": 1,
+  "attackSpeed": 0.5,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 40,
+  "maxMana": 80,
+  "moveSpeed": 3,
+  "criticalStrikeChance": 0.25,
+  "criticalStrikeDamage": 1.25,
+  "armor": 45,
+  "magicResistance": 45,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1312,
+    "canCrit": true,
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "abilityName": "Dậm Đất",
+  "abilityIcon": "skill-hero_Malphite_e",
+  "abilityDescription": "Malphite đập xuống đất, gây <color=#7a6dff>{hitDamage}</color><sprite name=ap_icon> sát thương phép cho kẻ địch ở gần và tăng cho bản thân <color=#c9aa71>{increaseAR_add}</color> Giáp <sprite name=ar_icon> trong <color=#c9aa71>{increaseAR_lifetime}</color> giây.",
+  "ability": {
+    "condition": "Active",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": true,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1,
+    "canCrit": false,
+    "aoe": {
+      "aoePos": "Self",
+      "aoeRange": 3,
+      "maxHitNum": 99,
+      "lifeTime": 1,
+      "triggerOnHit": "EveryCollision",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AP",
+      "ad": [
+        0
+      ],
+      "ap": [
+        150,
+        225,
+        350
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        0
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": true,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    },
+    "increaseAR": {
+      "buffID": "malphite_E_increaseAR_self",
+      "buffOn": "Self",
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        4
+      ],
+      "destroyOnLifeEnding": true,
+      "addType": "UpdateLifetime",
+      "lifeTimeCanChange": false,
+      "armorAdd": [
+        100,
+        125,
+        150
+      ],
+      "armorMult": [
+        0
+      ],
+      "armorAddCanChange": true,
+      "armorMultCanChange": false
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 800,
+      "attackDamage": 60,
+      "sellPrice": 2
+    },
+    {
+      "star": 2,
+      "hp": 1440,
+      "attackDamage": 108,
+      "sellPrice": 5
+    },
+    {
+      "star": 3,
+      "hp": 2592,
+      "attackDamage": 194.4,
+      "sellPrice": 17
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65ab7da0be21fbcc85021d13"
+  },
+  "championName": "Morgana",
+  "tier": 3,
+  "buyPrice": 3,
+  "border": "Blue",
+  "background": "card_Morgana",
+  "idClass": "Sorcerer",
+  "idOrigin": "Nightbringer",
+  "attackRange": 2,
+  "attackSpeed": 0.6,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 50,
+  "maxMana": 100,
+  "moveSpeed": 2,
+  "criticalStrikeChance": 0.25,
+  "criticalStrikeDamage": 1.25,
+  "armor": 35,
+  "magicResistance": 35,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 2,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1,
+    "canCrit": true,
+    "followTarget": {
+      "speedFly": 15,
+      "triggerOnHit": "HitTarget",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "abilityName": "Khóa Bóng Tối",
+  "abilityIcon": "skill-hero_Morgana_SM_q",
+  "abilityDescription": "Morgana tung chưởng về kẻ địch, gây <color=#7a6dff>{hitDamage}</color><sprite name=ap_icon> sát thương phép và làm Choáng <sprite name=stun_icon> trong <color=#c9aa71>{cc_lifetime}</color> giây.",
+  "ability": {
+    "condition": "Active",
+    "skillRange": 15,
+    "targetFilter": "Farthest",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": true,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1667,
+    "canCrit": false,
+    "followTarget": {
+      "speedFly": 15,
+      "triggerOnHit": "HitTarget",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AP",
+      "ad": [
+        0
+      ],
+      "ap": [
+        250,
+        350,
+        550
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        0
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": true,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    },
+    "crowdControl": {
+      "buffID": "morgana_Q_stun_enemy",
+      "buffOn": "Target",
+      "buffRange": 0,
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        2.5,
+        3,
+        4
+      ],
+      "destroyOnLifeEnding": true,
+      "controlType": "Stun",
+      "addType": "UpdateLifetime",
+      "maxStackUp": 0,
+      "lifeTimeCanChange": true
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 850,
+      "attackDamage": 45,
+      "sellPrice": 3
+    },
+    {
+      "star": 2,
+      "hp": 1530,
+      "attackDamage": 81,
+      "sellPrice": 8
+    },
+    {
+      "star": 3,
+      "hp": 2754,
+      "attackDamage": 45.8,
+      "sellPrice": 26
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65ab9bf2be21fbcc85021d14"
+  },
+  "championName": "Mundo",
+  "tier": 4,
+  "buyPrice": 4,
+  "border": "Purple",
+  "background": "card_Mundo",
+  "idClass": "Brawler",
+  "idOrigin": "Hextech",
+  "attackRange": 1,
+  "attackSpeed": 0.6,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 75,
+  "maxMana": 155,
+  "moveSpeed": 3,
+  "criticalStrikeChance": 0.25,
+  "criticalStrikeDamage": 1.25,
+  "armor": 50,
+  "magicResistance": 50,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1333,
+    "canCrit": true,
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "abilityName": "Suýt Quá Liều",
+  "abilityIcon": "skill-hero_Mundo_r",
+  "abilityDescription": "Mundo tiêm thuốc vào người, khiến bản thân trở nên tăng động trong 5s. Khi tăng động, hồi phục <color=#1f995c>{heal_MaxHpPercentage} Máu tối đa </color><sprite name=heal_icon> mỗi giây, tăng <color=#c9aa71>{increaseAS_mult}</color> Tốc độ đánh <sprite name=as_icon>, <color=#c9aa71>{increaseAR_add}</color> Giáp <sprite name=ar_icon> và <color=#c9aa71>{increaseMR_add}</color> Kháng phép <sprite name=mr_icon>.",
+  "ability": {
+    "condition": "Active",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": false,
+    "canUseSelf": true,
+    "canBeSilenced": true,
+    "searchAmong": "Allies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": true,
+    "delayTrigger": 0.3235,
+    "canCrit": false,
+    "channelling": {
+      "timeChanneling": 5,
+      "tickInterval": 1,
+      "tickTimes": 5,
+      "triggerRightAway": false
+    },
+    "heal": {
+      "buffID": "mundo_R_heal_self",
+      "buffOn": "Self",
+      "buffRange": 0,
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        1
+      ],
+      "destroyOnLifeEnding": true,
+      "addType": "None",
+      "maxStackUp": 99,
+      "lifeTimeCanChange": false,
+      "healing": [
+        0
+      ],
+      "extraMaxHpPercentage": [
+        0.25,
+        0.35,
+        1
+      ],
+      "extraCurrentHpPercentage": [
+        0
+      ],
+      "extraMissingHpPercentage": [
+        0
+      ],
+      "healingCanChange": false,
+      "extraMaxHpPercentageCanChange": true,
+      "extraCurrentHpPercentageCanChange": false,
+      "extraMissingHpPercentageCanChange": false
+    },
+    "increaseAR": {
+      "buffID": "mundo_R_increaseAR_self",
+      "buffOn": "Self",
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        5
+      ],
+      "destroyOnLifeEnding": true,
+      "addType": "UpdateLifetime",
+      "lifeTimeCanChange": false,
+      "armorAdd": [
+        50,
+        100,
+        200
+      ],
+      "armorMult": [
+        0
+      ],
+      "armorAddCanChange": true,
+      "armorMultCanChange": false
+    },
+    "increaseMR": {
+      "buffID": "mundo_R_increaseMR_self",
+      "buffOn": "Self",
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        5
+      ],
+      "destroyOnLifeEnding": true,
+      "addType": "UpdateLifetime",
+      "lifeTimeCanChange": false,
+      "magicResistanceAdd": [
+        100,
+        150,
+        300
+      ],
+      "magicResistanceMult": [
+        0
+      ],
+      "magicResistanceAddCanChange": true,
+      "magicResistanceMultCanChange": false
+    },
+    "increaseAS": {
+      "buffID": "mundo_R_increaseAS_self",
+      "buffOn": "Self",
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        5
+      ],
+      "destroyOnLifeEnding": true,
+      "addType": "UpdateLifetime",
+      "lifeTimeCanChange": false,
+      "attackSpeedMult": [
+        0.1,
+        0.2,
+        0.3
+      ],
+      "attackSpeedMultCanChange": true
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 1000,
+      "attackDamage": 80,
+      "sellPrice": 4
+    },
+    {
+      "star": 2,
+      "hp": 1800,
+      "attackDamage": 144,
+      "sellPrice": 11
+    },
+    {
+      "star": 3,
+      "hp": 3240,
+      "attackDamage": 259.2,
+      "sellPrice": 35
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65abaee1be21fbcc85021d15"
+  },
+  "championName": "Nami",
+  "tier": 4,
+  "buyPrice": 4,
+  "border": "Purple",
+  "background": "card_Nami",
+  "idClass": "Mystic",
+  "idOrigin": "Mascot",
+  "attackRange": 3,
+  "attackSpeed": 0.75,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 50,
+  "maxMana": 125,
+  "moveSpeed": 2,
+  "criticalStrikeChance": 0.25,
+  "criticalStrikeDamage": 1.25,
+  "armor": 25,
+  "magicResistance": 20,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 4,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1,
+    "canCrit": true,
+    "followTarget": {
+      "speedFly": 15,
+      "triggerOnHit": "HitTarget",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "abilityName": "Sóng Thần",
+  "abilityIcon": "skill-hero_Nami_r",
+  "abilityDescription": "Nami triệu hồi một làn sóng thủy triều khổng lồ gây <color=#7a6dff>{hitDamage}</color><sprite name=ap_icon> sát thương phép cho tất cả kẻ địch trúng phải, làm Choáng <sprite name=stun_icon>, giảm <color=#c9aa71>{decreaseAR_mult}</color> Giáp <sprite name=ar-pen_icon> và <color=#c9aa71>{decreaseMR_mult}</color> Kháng phép <sprite name=mr-pen_icon> chúng trong <color=#c9aa71>{cc_lifetime}</color> giây.",
+  "ability": {
+    "condition": "Active",
+    "skillRange": 3,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": true,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.2459,
+    "canCrit": false,
+    "fixedDirection": {
+      "activeDistance": 10,
+      "speedFly": 15,
+      "triggerOnHit": "EveryCollision",
+      "hitRange": 2
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AP",
+      "ad": [
+        0
+      ],
+      "ap": [
+        200,
+        300,
+        400
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        0
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": true,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    },
+    "crowdControl": {
+      "buffID": "nami_R_stun_enemy",
+      "buffOn": "Target",
+      "buffRange": 0,
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        1.5,
+        2,
+        2.5
+      ],
+      "destroyOnLifeEnding": true,
+      "controlType": "Stun",
+      "addType": "UpdateLifetime",
+      "maxStackUp": 0,
+      "lifeTimeCanChange": true
+    },
+    "decreaseAR": {
+      "buffID": "nami_R_decreaseAR_enemy",
+      "buffOn": "Target",
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        1.5,
+        2,
+        2.5
+      ],
+      "destroyOnLifeEnding": true,
+      "addType": "UpdateLifetime",
+      "lifeTimeCanChange": true,
+      "armorAdd": [
+        0
+      ],
+      "armorMult": [
+        0.3,
+        0.4,
+        0.5
+      ],
+      "armorAddCanChange": false,
+      "armorMultCanChange": true
+    },
+    "decreaseMR": {
+      "buffID": "nami_R_decreaseMR_enemy",
+      "buffOn": "Target",
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        1.5,
+        2,
+        2.5
+      ],
+      "destroyOnLifeEnding": true,
+      "addType": "UpdateLifetime",
+      "lifeTimeCanChange": true,
+      "magicResistanceAdd": [
+        0
+      ],
+      "magicResistanceMult": [
+        0.3,
+        0.4,
+        0.5
+      ],
+      "magicResistanceAddCanChange": false,
+      "magicResistanceMultCanChange": true
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 650,
+      "attackDamage": 50,
+      "sellPrice": 4
+    },
+    {
+      "star": 2,
+      "hp": 1170,
+      "attackDamage": 90,
+      "sellPrice": 11
+    },
+    {
+      "star": 3,
+      "hp": 2106,
+      "attackDamage": 162,
+      "sellPrice": 35
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65abd211be21fbcc85021d16"
+  },
+  "championName": "Nautilus",
+  "tier": 2,
+  "buyPrice": 2,
+  "border": "Green",
+  "background": "card_Nautilus",
+  "idClass": "Defender",
+  "idOrigin": "Hextech",
+  "attackRange": 1,
+  "attackSpeed": 0.55,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 60,
+  "maxMana": 120,
+  "moveSpeed": 3,
+  "criticalStrikeChance": 0.25,
+  "criticalStrikeDamage": 1.25,
+  "armor": 45,
+  "magicResistance": 45,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1333,
+    "canCrit": true,
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "abilityName": "Cơn Giận Của Người Khổng Lồ",
+  "abilityIcon": "skill-hero_Nautilus_MSM-07E_w",
+  "abilityDescription": "Nautilus tạo cho bản thân và <color=#c9aa71>{shield_maxHitNum}</color> đồng minh <color=#c9aa71>{shield}</color> Lá chắn <sprite name=shield_icon> (<color=#7a6dff>{shield_amount}</color><sprite name=ap_icon> + <color=#1f995c>{shield_MaxHpPercentage} Máu tối đa </color>của bản thân) trong <color=#c9aa71>{shield_lifetime}</color> giây.",
+  "ability": {
+    "condition": "Active",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": false,
+    "canUseSelf": true,
+    "canBeSilenced": true,
+    "searchAmong": "Allies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": true,
+    "delayTrigger": 0.2951,
+    "canCrit": false,
+    "shield": {
+      "buffID": "nautilus_W_shield_allies",
+      "buffOn": "Allies",
+      "buffRange": 15,
+      "haveLifeTime": true,
+      "lifeTime": [
+        3
+      ],
+      "destroyOnLifeEnding": true,
+      "addType": "None",
+      "lifeTimeCanChange": false,
+      "shieldAmount": [
+        50,
+        100,
+        150
+      ],
+      "extraMaxHpPercentage": [
+        0.08,
+        0.1,
+        0.12
+      ],
+      "extraCurrentHpPercentage": [
+        0
+      ],
+      "extraMissingHpPercentage": [
+        0
+      ],
+      "shieldAmountCanChange": true,
+      "extraMaxHpPercentageCanChange": true,
+      "extraCurrentHpPercentageCanChange": true,
+      "extraMissingHpPercentageCanChange": false,
+      "maxHit": [
+        4,
+        6,
+        8
+      ],
+      "maxHitCanChange": true
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 300,
+      "attackDamage": 40,
+      "sellPrice": 2
+    },
+    {
+      "star": 2,
+      "hp": 1350,
+      "attackDamage": 144,
+      "sellPrice": 5
+    },
+    {
+      "star": 3,
+      "hp": 2430,
+      "attackDamage": 259.2,
+      "sellPrice": 17
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65abe13fbe21fbcc85021d17"
+  },
+  "championName": "Riven",
+  "tier": 4,
+  "buyPrice": 4,
+  "border": "Purple",
+  "background": "card_Riven",
+  "idClass": "Skirmisher",
+  "idOrigin": "Dawnbringer",
+  "attackRange": 1,
+  "attackSpeed": 0.85,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 50,
+  "maxMana": 100,
+  "moveSpeed": 3,
+  "criticalStrikeChance": 0.25,
+  "criticalStrikeDamage": 1.25,
+  "armor": 45,
+  "magicResistance": 45,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1333,
+    "canCrit": true,
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "abilityName": "Lưỡi Kiếm Lưu Đày",
+  "abilityIcon": "skill-hero_Riven_r",
+  "abilityDescription": "Riven nhận <color=#c9aa71>{shield}</color> Lá chắn <sprite name=shield_icon> (<color=#ffa500>{shield_ADPercentage}</color> SMCK <sprite name=ad_icon> + <color=#7a6dff>{shield_amount}</color><sprite name=ap_icon>), tăng <color=#c9aa71>{increaseAD_mult}</color> SMCK <sprite name=ad_icon> trong vòng <color=#c9aa71>{increaseAD_lifetime}</color> giây.",
+  "ability": {
+    "condition": "Active",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": false,
+    "canUseSelf": true,
+    "canBeSilenced": true,
+    "searchAmong": "Allies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": true,
+    "delayTrigger": 0.619,
+    "canCrit": false,
+    "shield": {
+      "buffID": "riven_W_shield_self",
+      "buffOn": "Self",
+      "buffRange": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        5
+      ],
+      "destroyOnLifeEnding": true,
+      "addType": "None",
+      "lifeTimeCanChange": false,
+      "shieldAmount": [
+        100,
+        120,
+        140
+      ],
+      "extraMaxHpPercentage": [
+        0
+      ],
+      "extraCurrentHpPercentage": [
+        0
+      ],
+      "extraMissingHpPercentage": [
+        0
+      ],
+      "extraADPercentage": [
+        2.5
+      ],
+      "extraAPPercentage": [
+        0
+      ],
+      "shieldAmountCanChange": true,
+      "extraMaxHpPercentageCanChange": false,
+      "extraCurrentHpPercentageCanChange": false,
+      "extraMissingHpPercentageCanChange": false,
+      "extraADPercentageCanChange": false,
+      "extraAPPercentageCanChange": false,
+      "maxHit": [
+        1
+      ]
+    },
+    "increaseAD": {
+      "buffID": "riven_W_increaseAD_self",
+      "buffOn": "Self",
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        5
+      ],
+      "destroyOnLifeEnding": true,
+      "addType": "UpdateLifetime",
+      "lifeTimeCanChange": false,
+      "attackDamageAdd": [
+        0
+      ],
+      "attackDamageMult": [
+        1
+      ],
+      "attackDamageAddCanChange": false,
+      "attackDamageMultCanChange": false
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 850,
+      "attackDamage": 85,
+      "sellPrice": 4
+    },
+    {
+      "star": 2,
+      "hp": 1530,
+      "attackDamage": 153,
+      "sellPrice": 11
+    },
+    {
+      "star": 3,
+      "hp": 2754,
+      "attackDamage": 275.4,
+      "sellPrice": 35
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65abeb7abe21fbcc85021d18"
+  },
+  "championName": "Ryze",
+  "tier": 4,
+  "buyPrice": 4,
+  "border": "Purple",
+  "background": "card_Ryze",
+  "idClass": "Sorcerer",
+  "idOrigin": "Duelist",
+  "attackRange": 3,
+  "attackSpeed": 0.6,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 50,
+  "maxMana": 100,
+  "moveSpeed": 2,
+  "criticalStrikeChance": 0.25,
+  "criticalStrikeDamage": 1.25,
+  "armor": 30,
+  "magicResistance": 30,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 3,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1,
+    "canCrit": true,
+    "followTarget": {
+      "speedFly": 15,
+      "triggerOnHit": "HitTarget",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "abilityName": "Ngục Cổ Ngữ",
+  "abilityIcon": "skill-hero_Ryze_w",
+  "abilityDescription": "Ryze giam giữ <color=#c9aa71>{aoe_maxHitNum}</color> kẻ địch gần nhất, gây <color=#7a6dff>{hitDamage}</color><sprite name=ap_icon> sát thương phép và làm Choáng <sprite name=stun_icon> chúng trong <color=#c9aa71>{cc_lifetime}</color> giây.",
+  "ability": {
+    "condition": "Active",
+    "skillRange": 15,
+    "targetFilter": "Nearest",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": true,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1515,
+    "canCrit": false,
+    "aoe": {
+      "aoePos": "Self",
+      "aoeRange": 15,
+      "maxHitNum": 3,
+      "lifeTime": 1,
+      "triggerOnHit": "EveryCollision",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AP",
+      "ad": [
+        0
+      ],
+      "ap": [
+        200,
+        250,
+        800
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        0
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": true,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    },
+    "crowdControl": {
+      "buffID": "ryze_W_stun_enemy",
+      "buffOn": "Target",
+      "buffRange": 0,
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        1.5,
+        2,
+        4
+      ],
+      "destroyOnLifeEnding": true,
+      "controlType": "Stun",
+      "addType": "UpdateLifetime",
+      "maxStackUp": 0,
+      "lifeTimeCanChange": true
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 800,
+      "attackDamage": 50,
+      "sellPrice": 4
+    },
+    {
+      "star": 2,
+      "hp": 1440,
+      "attackDamage": 90,
+      "sellPrice": 11
+    },
+    {
+      "star": 3,
+      "hp": 2592,
+      "attackDamage": 162,
+      "sellPrice": 35
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65ac8f378c08aecdf9f728bc"
+  },
+  "championName": "Sivir",
+  "tier": 2,
+  "buyPrice": 2,
+  "border": "Green",
+  "background": "card_Sivir",
+  "idClass": "Ranger",
+  "idOrigin": "Dawnbringer",
+  "attackRange": 4,
+  "attackSpeed": 0.6,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 0,
+  "maxMana": 70,
+  "moveSpeed": 2,
+  "criticalStrikeChance": 0.25,
+  "criticalStrikeDamage": 1.25,
+  "armor": 20,
+  "magicResistance": 20,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 4,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1,
+    "canCrit": true,
+    "followTarget": {
+      "speedFly": 20,
+      "triggerOnHit": "HitTarget",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "abilityName": "Săn Đuổi",
+  "abilityIcon": "skill-hero_Sivir_BlackRock_r",
+  "abilityDescription": "Sivir tăng cho tất cả đồng minh trong phạm vi 2 ô <color=#c9aa71>{increaseAS_mult}</color> Tốc độ đánh <sprite name=as_icon> trong <color=#c9aa71>{increaseAS_lifetime}</color> giây. Ngoài ra, cô còn nhận thêm <color=#c9aa71>{increaseAD_add}</color> SMCK <sprite name=ad_icon> trong thời gian hiệu lực.",
+  "ability": {
+    "condition": "Active",
+    "skillRange": 5,
+    "targetFilter": "None",
+    "needTarget": false,
+    "canUseSelf": true,
+    "canBeSilenced": true,
+    "searchAmong": "Allies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.5,
+    "canCrit": false,
+    "increaseAS": {
+      "buffID": "sivir_R_increaseAS_allies",
+      "buffOn": "Allies",
+      "buffRange": 5,
+      "maxHitNum": 99,
+      "haveLifeTime": true,
+      "lifeTime": [
+        5
+      ],
+      "destroyOnLifeEnding": true,
+      "addType": "UpdateLifetime",
+      "lifeTimeCanChange": false,
+      "attackSpeedMult": [
+        0.4,
+        0.5,
+        0.7
+      ],
+      "attackSpeedMultCanChange": true
+    },
+    "increaseAD": {
+      "buffID": "sivir_R_increaseAD_self",
+      "buffOn": "Self",
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        5
+      ],
+      "destroyOnLifeEnding": true,
+      "addType": "UpdateLifetime",
+      "lifeTimeCanChange": false,
+      "attackDamageAdd": [
+        100,
+        200,
+        350
+      ],
+      "attackDamageMult": [
+        0
+      ],
+      "attackDamageAddCanChange": true,
+      "attackDamageMultCanChange": false
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 600,
+      "attackDamage": 65,
+      "sellPrice": 2
+    },
+    {
+      "star": 2,
+      "hp": 1080,
+      "attackDamage": 117,
+      "sellPrice": 5
+    },
+    {
+      "star": 3,
+      "hp": 1944,
+      "attackDamage": 210.6,
+      "sellPrice": 17
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65acaace8c08aecdf9f728bd"
+  },
+  "championName": "Sona",
+  "tier": 4,
+  "buyPrice": 4,
+  "border": "Purple",
+  "background": "card_Sona",
+  "idClass": "Mystic",
+  "idOrigin": "Dawnbringer",
+  "attackRange": 4,
+  "attackSpeed": 0.7,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 100,
+  "maxMana": 160,
+  "moveSpeed": 2,
+  "criticalStrikeChance": 0.25,
+  "criticalStrikeDamage": 1.25,
+  "armor": 30,
+  "magicResistance": 30,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 4,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1,
+    "canCrit": true,
+    "followTarget": {
+      "speedFly": 15,
+      "triggerOnHit": "HitTarget",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "abilityName": "Khúc Cao Trào",
+  "abilityIcon": "skill-hero_Sona_r",
+  "abilityDescription": "Sona phát hợp âm tối thượng của cô ấy về phía kẻ thù, gây <color=#7a6dff>{hitDamage}</color><sprite name=ap_icon> sát thương phép cho tất cả kẻ địch trúng chiêu và làm Choáng <sprite name=stun_icon> trong <color=#c9aa71>{cc_lifetime}</color> giây.",
+  "ability": {
+    "condition": "Active",
+    "skillRange": 6,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": true,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.2459,
+    "canCrit": false,
+    "fixedDirection": {
+      "activeDistance": 5,
+      "speedFly": 10,
+      "triggerOnHit": "EveryCollision",
+      "hitRange": 2
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AP",
+      "ad": [
+        0
+      ],
+      "ap": [
+        190,
+        275,
+        1000
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        0
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": true,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    },
+    "crowdControl": {
+      "buffID": "sona_R_stun_enemy",
+      "buffOn": "Target",
+      "maxHitNum": 99,
+      "haveLifeTime": true,
+      "lifeTime": [
+        1,
+        1,
+        4
+      ],
+      "destroyOnLifeEnding": true,
+      "controlType": "Stun",
+      "addType": "UpdateLifetime",
+      "maxStackUp": 0,
+      "lifeTimeCanChange": true
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 750,
+      "attackDamage": 40,
+      "sellPrice": 4
+    },
+    {
+      "star": 2,
+      "hp": 1350,
+      "attackDamage": 72,
+      "sellPrice": 11
+    },
+    {
+      "star": 3,
+      "hp": 2430,
+      "attackDamage": 129.6,
+      "sellPrice": 35
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65acb1c98c08aecdf9f728be"
+  },
+  "championName": "Soraka",
+  "tier": 4,
+  "buyPrice": 4,
+  "border": "Purple",
+  "background": "card_Soraka",
+  "idClass": "Mystic",
+  "idOrigin": "Nightbringer",
+  "attackRange": 4,
+  "attackSpeed": 0.75,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 50,
+  "maxMana": 120,
+  "moveSpeed": 2,
+  "criticalStrikeChance": 0.25,
+  "criticalStrikeDamage": 1.25,
+  "armor": 30,
+  "magicResistance": 30,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 4,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1,
+    "canCrit": true,
+    "followTarget": {
+      "speedFly": 15,
+      "triggerOnHit": "HitTarget",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "abilityName": "Nguyện Ước",
+  "abilityIcon": "skill-hero_Soraka_r",
+  "abilityDescription": "Soraka hồi máu cho tất cả đồng minh với <color=#7a6dff>{heal_healing}</color><sprite name=ap_icon>.",
+  "ability": {
+    "condition": "Active",
+    "skillRange": 4,
+    "targetFilter": "None",
+    "needTarget": false,
+    "canUseSelf": true,
+    "canBeSilenced": true,
+    "searchAmong": "Allies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.2167,
+    "canCrit": false,
+    "heal": {
+      "buffID": "soraka_R_heal_ally",
+      "buffOn": "Allies",
+      "buffRange": 15,
+      "maxHitNum": 99,
+      "haveLifeTime": true,
+      "lifeTime": [
+        1
+      ],
+      "destroyOnLifeEnding": true,
+      "addType": "None",
+      "maxStackUp": 99,
+      "lifeTimeCanChange": false,
+      "healing": [
+        375,
+        500,
+        20000
+      ],
+      "extraMaxHpPercentage": [
+        0
+      ],
+      "extraCurrentHpPercentage": [
+        0
+      ],
+      "extraMissingHpPercentage": [
+        0
+      ],
+      "healingCanChange": true,
+      "extraMaxHpPercentageCanChange": false,
+      "extraCurrentHpPercentageCanChange": false,
+      "extraMissingHpPercentageCanChange": false
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 750,
+      "attackDamage": 50,
+      "sellPrice": 4
+    },
+    {
+      "star": 2,
+      "hp": 1350,
+      "attackDamage": 90,
+      "sellPrice": 11
+    },
+    {
+      "star": 3,
+      "hp": 2430,
+      "attackDamage": 162,
+      "sellPrice": 35
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65acb9138c08aecdf9f728bf"
+  },
+  "championName": "Syndra",
+  "tier": 2,
+  "buyPrice": 2,
+  "border": "Green",
+  "background": "card_Syndra",
+  "idClass": "Sorcerer",
+  "idOrigin": "Nightbringer",
+  "attackRange": 4,
+  "attackSpeed": 0.7,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 0,
+  "maxMana": 65,
+  "moveSpeed": 2,
+  "criticalStrikeChance": 0.25,
+  "criticalStrikeDamage": 1.25,
+  "armor": 20,
+  "magicResistance": 20,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 4,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1167,
+    "canCrit": true,
+    "followTarget": {
+      "speedFly": 15,
+      "triggerOnHit": "HitTarget",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "abilityName": "Bùng Nổ Sức Mạnh",
+  "abilityIcon": "skill-hero_Syndra_r",
+  "abilityDescription": "Syndra bắn 3 quả cầu về phía kẻ địch có lượng Máu thấp nhất hiện tại, mỗi quả cầu gây <color=#7a6dff>{hitDamage}</color><sprite name=ap_icon> sát thương phép.",
+  "ability": {
+    "condition": "Active",
+    "skillRange": 15,
+    "targetFilter": "LowestHP",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": true,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1852,
+    "canCrit": false,
+    "channelling": {
+      "timeChanneling": 1,
+      "tickInterval": 0.3333,
+      "tickTimes": 3,
+      "triggerRightAway": false
+    },
+    "followTarget": {
+      "speedFly": 15,
+      "triggerOnHit": "HitTarget",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AP",
+      "ad": [
+        0
+      ],
+      "ap": [
+        100,
+        175,
+        300
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        0
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": true,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 600,
+      "attackDamage": 40,
+      "sellPrice": 2
+    },
+    {
+      "star": 2,
+      "hp": 1080,
+      "attackDamage": 72,
+      "sellPrice": 5
+    },
+    {
+      "star": 3,
+      "hp": 1944,
+      "attackDamage": 129.6,
+      "sellPrice": 17
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65acc3878c08aecdf9f728c0"
+  },
+  "championName": "Teemo",
+  "tier": 2,
+  "buyPrice": 2,
+  "border": "Green",
+  "background": "card_Teemo",
+  "idClass": "Assassin",
+  "idOrigin": "Yordle",
+  "attackRange": 3,
+  "attackSpeed": 0.7,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 0,
+  "maxMana": 60,
+  "moveSpeed": 2,
+  "criticalStrikeChance": 0.25,
+  "criticalStrikeDamage": 1.25,
+  "armor": 20,
+  "magicResistance": 20,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 3,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1167,
+    "canCrit": true,
+    "followTarget": {
+      "speedFly": 20,
+      "triggerOnHit": "HitTarget",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "abilityName": "Phi Tiêu Mù",
+  "abilityIcon": "skill-hero_Teemo_q",
+  "abilityDescription": "Teemo bắn một phi tiêu độc vào mục tiêu hiện tại, gây <color=#7a6dff>{hitDamage}</color><sprite name=ap_icon> sát thương phép và bị Mù <sprite name=blind_icon> trong <color=#c9aa71>{cc_lifetime}</color> giây.",
+  "ability": {
+    "condition": "Active",
+    "skillRange": 3,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": true,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1667,
+    "canCrit": false,
+    "followTarget": {
+      "speedFly": 15,
+      "triggerOnHit": "HitTarget",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AP",
+      "ad": [
+        0
+      ],
+      "ap": [
+        250,
+        400,
+        900
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        0
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": true,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    },
+    "crowdControl": {
+      "buffID": "teemo_R_blind_enemy",
+      "buffOn": "Target",
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        2.5,
+        3,
+        4.5
+      ],
+      "destroyOnLifeEnding": true,
+      "controlType": "Blind",
+      "addType": "UpdateLifetime",
+      "lifeTimeCanChange": true
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 500,
+      "attackDamage": 55,
+      "sellPrice": 2
+    },
+    {
+      "star": 2,
+      "hp": 900,
+      "attackDamage": 99,
+      "sellPrice": 5
+    },
+    {
+      "star": 3,
+      "hp": 1620,
+      "attackDamage": 178.2,
+      "sellPrice": 17
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65accb018c08aecdf9f728c1"
+  },
+  "championName": "Tristana",
+  "tier": 1,
+  "buyPrice": 1,
+  "border": "Gray",
+  "background": "card_Tristana",
+  "idClass": "Ranger",
+  "idOrigin": "Yordle",
+  "attackRange": 4,
+  "attackSpeed": 0.7,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 0,
+  "maxMana": 40,
+  "moveSpeed": 2,
+  "criticalStrikeChance": 0.25,
+  "criticalStrikeDamage": 1.25,
+  "armor": 20,
+  "magicResistance": 40,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 3,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1167,
+    "canCrit": true,
+    "followTarget": {
+      "speedFly": 20,
+      "triggerOnHit": "HitTarget",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "abilityName": "Súng Liên Thanh",
+  "abilityIcon": "skill-hero_Tristana_PoroGirl_q",
+  "abilityDescription": "Tristana nhận thêm <color=#c9aa71>{increaseAS_mult}</color> Tốc độ đánh<sprite name=as_icon> và <color=#c9aa71>{increaseAD_mult}</color> SMCK<sprite name=ad_icon> trong <color=#c9aa71>{increaseAS_lifetime}</color> giây.",
+  "ability": {
+    "condition": "Active",
+    "skillRange": 3,
+    "targetFilter": "None",
+    "needTarget": false,
+    "canUseSelf": true,
+    "canBeSilenced": true,
+    "searchAmong": "Allies",
+    "isTriggerChAnim": false,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0,
+    "canCrit": false,
+    "increaseAD": {
+      "buffID": "tristana_Q_increaseAD_self",
+      "buffOn": "Self",
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        3
+      ],
+      "destroyOnLifeEnding": true,
+      "addType": "UpdateLifetime",
+      "lifeTimeCanChange": false,
+      "attackDamageAdd": [
+        0
+      ],
+      "attackDamageMult": [
+        0.8,
+        0.9,
+        1
+      ],
+      "attackDamageAddCanChange": false,
+      "attackDamageMultCanChange": true
+    },
+    "increaseAS": {
+      "buffID": "tristana_Q_increaseAS_self",
+      "buffOn": "Self",
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        3
+      ],
+      "destroyOnLifeEnding": true,
+      "addType": "UpdateLifetime",
+      "lifeTimeCanChange": false,
+      "attackSpeedMult": [
+        0.6,
+        0.65,
+        0.7
+      ],
+      "attackSpeedMultCanChange": true
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 500,
+      "attackDamage": 50,
+      "sellPrice": 1
+    },
+    {
+      "star": 2,
+      "hp": 900,
+      "attackDamage": 90,
+      "sellPrice": 3
+    },
+    {
+      "star": 3,
+      "hp": 1620,
+      "attackDamage": 162,
+      "sellPrice": 9
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65acd41e8c08aecdf9f728c2"
+  },
+  "championName": "Tryndamere",
+  "tier": 4,
+  "buyPrice": 4,
+  "border": "Purple",
+  "background": "card_Tryndamere",
+  "idClass": "Skirmisher",
+  "idOrigin": "Dawnbringer",
+  "attackRange": 1,
+  "attackSpeed": 0.85,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 50,
+  "maxMana": 100,
+  "moveSpeed": 3,
+  "criticalStrikeChance": 0.25,
+  "criticalStrikeDamage": 1.25,
+  "armor": 60,
+  "magicResistance": 60,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1333,
+    "canCrit": true,
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "abilityName": "Say Máu",
+  "abilityIcon": "skill-hero_Tryndamere_w",
+  "abilityDescription": "Tryndamere hồi phục <color=#1f995c>{heal_healing}</color> Máu <sprite name=heal_icon> cho bản thân, tăng <color=#c9aa71>{increaseCritChance_mult}</color> Tỉ lệ chí mạng <sprite name=crit-chance_icon> và <color=#c9aa71>{increaseCritDMG_mult}</color> Sát thương chí mạng <sprite name=crit-dmg_icon> trong <color=#c9aa71>{increaseCritChance_lifetime}</color> giây.",
+  "ability": {
+    "condition": "Active",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": false,
+    "canUseSelf": true,
+    "canBeSilenced": true,
+    "searchAmong": "Allies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.5555,
+    "canCrit": false,
+    "heal": {
+      "buffID": "tryndamae_Q_heal_self",
+      "buffOn": "Self",
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        1
+      ],
+      "destroyOnLifeEnding": true,
+      "addType": "None",
+      "maxStackUp": 99,
+      "lifeTimeCanChange": false,
+      "healing": [
+        40,
+        70,
+        100
+      ],
+      "extraMaxHpPercentage": [
+        0
+      ],
+      "extraCurrentHpPercentage": [
+        0
+      ],
+      "extraMissingHpPercentage": [
+        0
+      ],
+      "healingCanChange": true,
+      "extraMaxHpPercentageCanChange": false,
+      "extraCurrentHpPercentageCanChange": false,
+      "extraMissingHpPercentageCanChange": false
+    },
+    "increaseCritChance": {
+      "buffID": "tryndamere_Q_increaseCritChance_self",
+      "buffOn": "Self",
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        2
+      ],
+      "destroyOnLifeEnding": true,
+      "addType": "UpdateLifetime",
+      "lifeTimeCanChange": false,
+      "criticalChanceAdd": [
+        0.5
+      ],
+      "criticalChanceAddCanChange": false
+    },
+    "increaseCritDMG": {
+      "buffID": "tryndamere_Q_increaseCritDMG_self",
+      "buffOn": "Self",
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        2
+      ],
+      "destroyOnLifeEnding": true,
+      "addType": "UpdateLifetime",
+      "lifeTimeCanChange": false,
+      "criticalDamageAdd": [
+        0.3,
+        0.4,
+        0.5
+      ],
+      "criticalChanceAddCanChange": true
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 850,
+      "attackDamage": 85,
+      "sellPrice": 4
+    },
+    {
+      "star": 2,
+      "hp": 1530,
+      "attackDamage": 153,
+      "sellPrice": 11
+    },
+    {
+      "star": 3,
+      "hp": 2754,
+      "attackDamage": 275.4,
+      "sellPrice": 35
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65acdee68c08aecdf9f728c3"
+  },
+  "championName": "Vayne",
+  "tier": 3,
+  "buyPrice": 3,
+  "border": "Blue",
+  "background": "card_Vayne",
+  "idClass": "Ranger",
+  "idOrigin": "Duelist",
+  "attackRange": 4,
+  "attackSpeed": 0.75,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 0,
+  "maxMana": 40,
+  "moveSpeed": 2,
+  "criticalStrikeChance": 0.25,
+  "criticalStrikeDamage": 1.25,
+  "armor": 25,
+  "magicResistance": 25,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 4,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1167,
+    "canCrit": true,
+    "followTarget": {
+      "speedFly": 20,
+      "triggerOnHit": "HitTarget",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "abilityName": "Mũi Tên Bạc",
+  "abilityIcon": "skill-hero_Vayne_w",
+  "abilityDescription": "Vayne bắn một tia cực mạnh vào mục tiêu, gây <color=#ffa500>{hitDamage}</color> sát thương chuẩn ({adMultiplier} SMCK <sprite name=ad_icon> + {ap} <sprite name=ap_icon>).",
+  "ability": {
+    "condition": "Active",
+    "skillRange": 4,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": true,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.2239,
+    "canCrit": false,
+    "followTarget": {
+      "speedFly": 20,
+      "triggerOnHit": "HitTarget",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "True",
+      "ad": [
+        0
+      ],
+      "ap": [
+        18,
+        25,
+        45
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1.3,
+        1.3,
+        1.4
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": true,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": true,
+      "apMultiplierCanChange": false
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 600,
+      "attackDamage": 60,
+      "sellPrice": 2
+    },
+    {
+      "star": 2,
+      "hp": 1080,
+      "attackDamage": 108,
+      "sellPrice": 5
+    },
+    {
+      "star": 3,
+      "hp": 1944,
+      "attackDamage": 194.4,
+      "sellPrice": 17
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65ace32e8c08aecdf9f728c4"
+  },
+  "championName": "Wukong",
+  "tier": 1,
+  "buyPrice": 1,
+  "border": "Gray",
+  "background": "card_Wukong",
+  "idClass": "Defender",
+  "idOrigin": "Mascot",
+  "attackRange": 1,
+  "attackSpeed": 0.7,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 0,
+  "maxMana": 60,
+  "moveSpeed": 3,
+  "criticalStrikeChance": 0.25,
+  "criticalStrikeDamage": 1.25,
+  "armor": 45,
+  "magicResistance": 45,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1312,
+    "canCrit": true,
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "abilityName": "Thiết Bản Ngàn Cân",
+  "abilityIcon": "skill-hero_Wukong_Dark_q",
+  "abilityDescription": "Wukong tấn công mục tiêu, gây <color=#ffa500>{hitDamage}</color> sát thương vật lý ({ap} <sprite name=ap_icon> + {adMultiplier} SMCK <sprite name=ad_icon>), làm Choáng <sprite name=stun_icon> và Giảm <color=#c9aa71>{decreaseAR_mult}</color> Giáp <sprite name=ar-pen_icon> trong <color=#c9aa71>{decreaseAR_lifetime}</color> giây.",
+  "ability": {
+    "condition": "Active",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": true,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1,
+    "canCrit": false,
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        50,
+        75,
+        100
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1.85,
+        2,
+        2.5
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": true,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": true,
+      "apMultiplierCanChange": false
+    },
+    "crowdControl": {
+      "buffID": "wukong_Q_stun_enemy",
+      "buffOn": "Target",
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        1,
+        1.25,
+        1.5
+      ],
+      "destroyOnLifeEnding": true,
+      "controlType": "Stun",
+      "addType": "UpdateLifetime",
+      "lifeTimeCanChange": true
+    },
+    "decreaseAR": {
+      "buffID": "wukong_Q_decreaseAR_enemy",
+      "buffOn": "Target",
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        5,
+        1.5,
+        2
+      ],
+      "destroyOnLifeEnding": true,
+      "addType": "UpdateLifetime",
+      "lifeTimeCanChange": false,
+      "armorAdd": [
+        0
+      ],
+      "armorMult": [
+        0.3
+      ],
+      "armorAddCanChange": false,
+      "armorMultCanChange": false
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 650,
+      "attackDamage": 60,
+      "sellPrice": 1
+    },
+    {
+      "star": 2,
+      "hp": 1170,
+      "attackDamage": 117,
+      "sellPrice": 3
+    },
+    {
+      "star": 3,
+      "hp": 2106,
+      "attackDamage": 210.6,
+      "sellPrice": 9
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65acea3e8c08aecdf9f728c5"
+  },
+  "championName": "Xin Zhao",
+  "tier": 2,
+  "buyPrice": 2,
+  "border": "Green",
+  "background": "card_XinZhao",
+  "idClass": "Skirmisher",
+  "idOrigin": "Duelist",
+  "attackRange": 1,
+  "attackSpeed": 0.7,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 0,
+  "maxMana": 60,
+  "moveSpeed": 3,
+  "criticalStrikeChance": 0.25,
+  "criticalStrikeDamage": 1.25,
+  "armor": 45,
+  "magicResistance": 35,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1312,
+    "canCrit": true,
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "abilityName": "Bán Nguyệt Thương",
+  "abilityIcon": "skill-hero_XinZhao_r",
+  "abilityDescription": "Xin Zhao quét thương xung quanh bản thân, gây <color=#ffa500>{hitDamage}</color> sát thương vật lý cho kẻ địch ở gần và nhận thêm <color=#c9aa71>{increaseAR_add}</color> Giáp <sprite name=ar_icon> và <color=#c9aa71>{increaseMR_add}</color> Kháng phép <sprite name=mr_icon> trong thời gian còn lại của trận chiến.",
+  "ability": {
+    "condition": "Active",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": true,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1,
+    "canCrit": false,
+    "aoe": {
+      "aoePos": "Self",
+      "aoeRange": 3,
+      "maxHitNum": 99,
+      "lifeTime": 1,
+      "triggerOnHit": "EveryCollision",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        330,
+        340,
+        350
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        0
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": true,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    },
+    "increaseAR": {
+      "buffID": "xinzhao_R_increaseAR_self",
+      "buffOn": "Self",
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        99
+      ],
+      "destroyOnLifeEnding": true,
+      "addType": "UpdateLifetime",
+      "lifeTimeCanChange": false,
+      "armorAdd": [
+        50,
+        60,
+        75
+      ],
+      "armorMult": [
+        0
+      ],
+      "armorAddCanChange": true,
+      "armorMultCanChange": false
+    },
+    "increaseMR": {
+      "buffID": "xinzhao_R_increaseMR_self",
+      "buffOn": "Self",
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        99
+      ],
+      "destroyOnLifeEnding": true,
+      "addType": "UpdateLifetime",
+      "lifeTimeCanChange": false,
+      "magicResistanceAdd": [
+        50,
+        60,
+        75
+      ],
+      "magicResistanceMult": [
+        0
+      ],
+      "magicResistanceAddCanChange": true,
+      "magicResistanceMultCanChange": false
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 650,
+      "attackDamage": 60,
+      "sellPrice": 2
+    },
+    {
+      "star": 2,
+      "hp": 1170,
+      "attackDamage": 108,
+      "sellPrice": 5
+    },
+    {
+      "star": 3,
+      "hp": 2106,
+      "attackDamage": 194.4,
+      "sellPrice": 17
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65acefc48c08aecdf9f728c6"
+  },
+  "championName": "Ziggs",
+  "tier": 1,
+  "buyPrice": 1,
+  "border": "Gray",
+  "background": "card_Ziggs",
+  "idClass": "Sorcerer",
+  "idOrigin": "Yordle",
+  "attackRange": 3,
+  "attackSpeed": 0.7,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 0,
+  "maxMana": 40,
+  "moveSpeed": 2,
+  "criticalStrikeChance": 0.25,
+  "criticalStrikeDamage": 1.25,
+  "armor": 20,
+  "magicResistance": 20,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 3,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.1167,
+    "canCrit": true,
+    "followTarget": {
+      "speedFly": 15,
+      "triggerOnHit": "HitTarget",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "abilityName": "Bom Nảy",
+  "abilityIcon": "skill-hero_Ziggs_q",
+  "abilityDescription": "Ziggs ném bom vào kẻ địch, gây <color=#7a6dff>{hitDamage}</color><sprite name=ap_icon> sát thương phép.",
+  "ability": {
+    "condition": "Active",
+    "skillRange": 3,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": true,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.28,
+    "canCrit": false,
+    "followTarget": {
+      "speedFly": 15,
+      "triggerOnHit": "HitTarget",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AP",
+      "ad": [
+        0
+      ],
+      "ap": [
+        300,
+        400,
+        600
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        0
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": true,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 500,
+      "attackDamage": 40,
+      "sellPrice": 1
+    },
+    {
+      "star": 2,
+      "hp": 900,
+      "attackDamage": 72,
+      "sellPrice": 3
+    },
+    {
+      "star": 3,
+      "hp": 1620,
+      "attackDamage": 129.6,
+      "sellPrice": 9
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65ae2bc063856cf8d2c765a3"
+  },
+  "championName": "Miss Fortune",
+  "tier": 4,
+  "buyPrice": 4,
+  "border": "Purple",
+  "background": "card_MissFortune",
+  "idClass": "Ranger",
+  "idOrigin": "Nightbringer",
+  "attackRange": 4,
+  "attackSpeed": 0.7,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 0,
+  "maxMana": 120,
+  "moveSpeed": 2,
+  "criticalStrikeChance": 0.25,
+  "criticalStrikeDamage": 1.25,
+  "armor": 30,
+  "magicResistance": 30,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 4,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.15,
+    "canCrit": true,
+    "followTarget": {
+      "speedFly": 20,
+      "triggerOnHit": "HitTarget",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "abilityName": "Bão Đạn",
+  "abilityIcon": "skill-hero_MissFortune_r",
+  "abilityDescription": "Miss Fortune bắn <color=#c9aa71>{tickTimes}</color> đợt đạn theo hình nón về phía mục tiêu trong <color=#c9aa71>{timeChanneling}</color> giây, mỗi đợt gây <color=#7a6dff>{hitDamage}</color><sprite name=ap_icon> sát thương phép cho tất cả kẻ địch trúng phải.",
+  "ability": {
+    "condition": "Active",
+    "skillRange": 15,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": true,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.000001,
+    "canCrit": false,
+    "channelling": {
+      "timeChanneling": 2,
+      "tickInterval": 0.25,
+      "tickTimes": 8,
+      "triggerRightAway": false
+    },
+    "fixedDirection": {
+      "activeDistance": 15,
+      "speedFly": 10,
+      "triggerOnHit": "EveryCollision",
+      "hitRange": 5
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AP",
+      "ad": [
+        0
+      ],
+      "ap": [
+        45,
+        65,
+        200
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        0
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": true,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 750,
+      "attackDamage": 60,
+      "sellPrice": 4
+    },
+    {
+      "star": 2,
+      "hp": 1350,
+      "attackDamage": 108,
+      "sellPrice": 11
+    },
+    {
+      "star": 3,
+      "hp": 2430,
+      "attackDamage": 194.4,
+      "sellPrice": 35
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65ae9a2a6bffc248399bb0f3"
+  },
+  "championName": "Krug",
+  "tier": 0,
+  "buyPrice": 0,
+  "border": "Gray",
+  "background": "card_Krug",
+  "moveSpeed": 3,
+  "criticalStrikeChance": 0,
+  "criticalStrikeDamage": 0,
+  "attackRange": 1,
+  "attackSpeed": 0.8,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 0,
+  "maxMana": 0,
+  "armor": 50,
+  "magicResistance": 25,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.283,
+    "canCrit": false,
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 1200,
+      "attackDamage": 110,
+      "sellPrice": 0
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65ae9bb16bffc248399bb0f4"
+  },
+  "championName": "Murk Wolf",
+  "tier": 0,
+  "buyPrice": 0,
+  "border": "Gray",
+  "background": "card_MurkWolf",
+  "moveSpeed": 3,
+  "criticalStrikeChance": 0,
+  "criticalStrikeDamage": 0,
+  "attackRange": 1,
+  "attackSpeed": 1,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 0,
+  "maxMana": 0,
+  "armor": 25,
+  "magicResistance": 0,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.277,
+    "canCrit": false,
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "level": [
+    {
+      "star": 1,
+      "hp": 400,
+      "attackDamage": 100,
+      "sellPrice": 0
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65ae9ccb6bffc248399bb0f5"
+  },
+  "championName": "Red Brambleback",
+  "tier": 0,
+  "buyPrice": 0,
+  "border": "Gray",
+  "background": "card_RedBrambleback",
+  "moveSpeed": 3,
+  "criticalStrikeChance": 0,
+  "criticalStrikeDamage": 0,
+  "attackRange": 1,
+  "attackSpeed": 1,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 0,
+  "maxMana": 0,
+  "armor": 100,
+  "magicResistance": 100,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.2535,
+    "canCrit": false,
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "level": [
+    {
+      "star": 3,
+      "hp": 3000,
+      "attackDamage": 300,
+      "sellPrice": 0
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65ae9d716bffc248399bb0f6"
+  },
+  "championName": "Blue Sentinel",
+  "tier": 0,
+  "buyPrice": 0,
+  "border": "Gray",
+  "background": "card_BlueSentinel",
+  "moveSpeed": 3,
+  "criticalStrikeChance": 0,
+  "criticalStrikeDamage": 0,
+  "attackRange": 1,
+  "attackSpeed": 1,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 0,
+  "maxMana": 0,
+  "armor": 100,
+  "magicResistance": 100,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.2535,
+    "canCrit": false,
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "level": [
+    {
+      "star": 3,
+      "hp": 3000,
+      "attackDamage": 300,
+      "sellPrice": 0
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65ae9dc06bffc248399bb0f7"
+  },
+  "championName": "Dragon",
+  "tier": 0,
+  "buyPrice": 0,
+  "border": "Gray",
+  "background": "card_Dragon",
+  "moveSpeed": 3,
+  "criticalStrikeChance": 0,
+  "criticalStrikeDamage": 0,
+  "attackRange": 2,
+  "attackSpeed": 1,
+  "armorPenetration": 0,
+  "armorPenetrationPercentage": 0,
+  "abilityPower": 100,
+  "magicPenetration": 0,
+  "magicPenetrationPercentage": 0,
+  "startMana": 0,
+  "maxMana": 0,
+  "armor": 0,
+  "magicResistance": 0,
+  "hpRegen": 0,
+  "manaRegen": 0,
+  "physicalVamp": 0,
+  "spellVamp": 0,
+  "basicAttack": {
+    "condition": "BasicAttack",
+    "skillRange": 6,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": true,
+    "isScaleAnimWithAS": true,
+    "couldInterrupt": true,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0.4,
+    "canCrit": false,
+    "followTarget": {
+      "speedFly": 15,
+      "triggerOnHit": "HitTarget",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AD",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        1
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  },
+  "level": [
+    {
+      "star": 3,
+      "hp": 6000,
+      "attackDamage": 500,
+      "sellPrice": 0
+    }
+  ]
+}]

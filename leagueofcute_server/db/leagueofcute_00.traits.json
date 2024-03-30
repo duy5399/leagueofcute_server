@@ -1,0 +1,865 @@
+[{
+  "_id": {
+    "$oid": "65b3ee89c5b23c6c47c5ca78"
+  },
+  "type": "Class",
+  "id": "ranger",
+  "name": "Cung Thủ",
+  "icon": "trait_icon_ranger",
+  "description": "Tất cả đồng minh nhận thêm Tốc Độ Đánh, tướng Cung Thủ nhận thêm gấp đôi.",
+  "buffOn": "Allies",
+  "breakpoint": [
+    2,
+    4,
+    6,
+    8
+  ],
+  "detailBreakpoint": [
+    "+20% Tốc Độ Đánh, +40% Tốc Độ Đánh cho tướng Cung Thủ",
+    "+40% Tốc Độ Đánh, +80% Tốc Độ Đánh cho tướng Cung Thủ",
+    "+80% Tốc Độ Đánh, +160% Tốc Độ Đánh cho tướng Cung Thủ",
+    "+100% Tốc Độ Đánh, +200% Tốc Độ Đánh cho tướng Cung Thủ"
+  ],
+  "attackSpeedForAllies": [
+    0.2,
+    0.4,
+    0.8,
+    1
+  ],
+  "attackSpeedForRanger": [
+    0.4,
+    0.8,
+    1.6,
+    2
+  ],
+  "activeAtTheStartOfCombat": true,
+  "composition": [
+    [
+      "Ashe",
+      "Gray"
+    ],
+    [
+      "Tristana",
+      "Gray"
+    ],
+    [
+      "Corki",
+      "Green"
+    ],
+    [
+      "Sivir",
+      "Green"
+    ],
+    [
+      "Jinx",
+      "Blue"
+    ],
+    [
+      "Vayne",
+      "Blue"
+    ],
+    [
+      "Miss Fortune",
+      "Purple"
+    ],
+    [
+      "Ezreal",
+      "Gold"
+    ]
+  ]
+},
+{
+  "_id": {
+    "$oid": "65b3f374c5b23c6c47c5ca79"
+  },
+  "type": "Class",
+  "id": "assassin",
+  "name": "Sát Thủ",
+  "icon": "trait_icon_assassin",
+  "description": "Kỹ năng của Sát Thủ có thể chí mạng, và họ nhận được thêm Tỉ Lệ Chí Mạng và Sát Thương Chí Mạng.",
+  "buffOn": "Self",
+  "breakpoint": [
+    1,
+    2
+  ],
+  "detailBreakpoint": [
+    "+10% Tỉ Lệ Chí Mạng và + 10% Sát Thương Chí Mạng",
+    "+30% Tỉ Lệ Chí Mạng và + 30% Sát Thương Chí Mạng"
+  ],
+  "skillCanCrit": true,
+  "criticalChance": [
+    0.1,
+    0.3
+  ],
+  "criticalDamage": [
+    0.1,
+    0.3
+  ],
+  "activeAtTheStartOfCombat": true,
+  "composition": [
+    [
+      "Teemo",
+      "Green"
+    ],
+    [
+      "Akali",
+      "Blue"
+    ],
+    [
+      "Kararina",
+      "Blue"
+    ]
+  ]
+},
+{
+  "_id": {
+    "$oid": "65b666c7a48cfe5b7bcc91f3"
+  },
+  "type": "Class",
+  "id": "brawler",
+  "name": "Đấu Sĩ",
+  "icon": "trait_icon_brawler",
+  "description": "Tất cả đồng minh nhận thêm Máu tối đa, tướng Đấu Sĩ sẽ nhận được nhiều hơn.",
+  "buffOn": "Allies",
+  "breakpoint": [
+    2,
+    4
+  ],
+  "detailBreakpoint": [
+    "+100 Máu, +400 Máu cho tướng Đấu Sĩ",
+    "+150 Máu, +1000 Máu cho tướng Đấu Sĩ"
+  ],
+  "hpForAllies": [
+    100,
+    150
+  ],
+  "hpForBrawler": [
+    400,
+    1000
+  ],
+  "activeAtTheStartOfCombat": true,
+  "composition": [
+    [
+      "Blitzcrank",
+      "Gray"
+    ],
+    [
+      "Amumu",
+      "Green"
+    ],
+    [
+      "Malphite",
+      "Green"
+    ],
+    [
+      "Mundo",
+      "Purple"
+    ]
+  ]
+},
+{
+  "_id": {
+    "$oid": "65b67f75a48cfe5b7bcc91f4"
+  },
+  "type": "Class",
+  "id": "mystic",
+  "name": "Bí Ẩn",
+  "icon": "trait_icon_mystic",
+  "description": "Tất cả đồng minh nhận thêm Kháng Phép, tướng Bí Ẩn nhận thêm gấp đôi.",
+  "buffOn": "Allies",
+  "breakpoint": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "detailBreakpoint": [
+    "+25 Kháng phép, +50 Kháng phép cho tướng Bí Ẩn",
+    "+40 Kháng phép, +80 Kháng phép cho tướng Bí Ẩn",
+    "+60 Kháng phép, +120 Kháng phép cho tướng Bí Ẩn",
+    "+90 Kháng phép, +180 Kháng phép cho tướng Bí Ẩn"
+  ],
+  "magicResistForAllies": [
+    25,
+    40,
+    60,
+    90
+  ],
+  "magicResistForMystic": [
+    50,
+    80,
+    120,
+    180
+  ],
+  "activeAtTheStartOfCombat": true,
+  "composition": [
+    [
+      "Janna",
+      "Blue"
+    ],
+    [
+      "Alistar",
+      "Purple"
+    ],
+    [
+      "Nami",
+      "Purple"
+    ],
+    [
+      "Sona",
+      "Purple"
+    ],
+    [
+      "Soraka",
+      "Purple"
+    ]
+  ]
+},
+{
+  "_id": {
+    "$oid": "65b67fefa48cfe5b7bcc91f5"
+  },
+  "type": "Class",
+  "id": "defender",
+  "name": "Hộ Vệ",
+  "icon": "trait_icon_defender",
+  "description": "Tất cả đồng minh nhận thêm Giáp, tướng Hộ Vệ sẽ nhận được nhiều hơn.",
+  "buffOn": "Allies",
+  "breakpoint": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "detailBreakpoint": [
+    "+20 Giáp, +40 Giáp cho tướng Hộ Vệ",
+    "+40 Giáp, +80 Giáp cho tướng Hộ Vệ",
+    "+80 Giáp, +150 Giáp cho tướng Hộ Vệ",
+    "+200 Giáp, +250 Giáp cho tướng Hộ Vệ"
+  ],
+  "armorForAllies": [
+    20,
+    40,
+    80,
+    200
+  ],
+  "armorForDefender": [
+    40,
+    80,
+    150,
+    250
+  ],
+  "activeAtTheStartOfCombat": true,
+  "composition": [
+    [
+      "Darius",
+      "Gray"
+    ],
+    [
+      "Leona",
+      "Gray"
+    ],
+    [
+      "Wukong",
+      "Gray"
+    ],
+    [
+      "Nautilus",
+      "Green"
+    ],
+    [
+      "Garen",
+      "Blue"
+    ]
+  ]
+},
+{
+  "_id": {
+    "$oid": "65b68093a48cfe5b7bcc91f6"
+  },
+  "type": "Class",
+  "id": "sorcerer",
+  "name": "Pháp Sư",
+  "icon": "trait_icon_sorcerer",
+  "description": "Tất cả đồng minh nhận thêm Sức Mạnh Phép Thuật.",
+  "buffOn": "Allies",
+  "breakpoint": [
+    2,
+    4,
+    6,
+    8
+  ],
+  "detailBreakpoint": [
+    "+20 Sức Mạnh Phép Thuật",
+    "+40 Sức Mạnh Phép Thuật",
+    "+80 Sức Mạnh Phép Thuật",
+    "120 Sức Mạnh Phép Thuật"
+  ],
+  "abilityPower": [
+    20,
+    40,
+    80,
+    120
+  ],
+  "activeAtTheStartOfCombat": true,
+  "composition": [
+    [
+      "Ahri",
+      "Gray"
+    ],
+    [
+      "Ziggs",
+      "Gray"
+    ],
+    [
+      "Syndra",
+      "Green"
+    ],
+    [
+      "Morgana",
+      "Blue"
+    ],
+    [
+      "Brand",
+      "Purple"
+    ],
+    [
+      "Ryze",
+      "Purple"
+    ],
+    [
+      "Karthus",
+      "Gold"
+    ],
+    [
+      "Lux",
+      "Gold"
+    ]
+  ]
+},
+{
+  "_id": {
+    "$oid": "65b6822da48cfe5b7bcc91f7"
+  },
+  "type": "Class",
+  "id": "skirmisher",
+  "name": "Chiến Binh",
+  "icon": "trait_icon_skirmisher",
+  "description": "Chiến Binh nhận một lá chắn ở đầu trận chiến, và nhận thêm Sức Mạnh Công Kích mỗi giây.",
+  "buffOn": "Self",
+  "breakpoint": [
+    2,
+    4,
+    6
+  ],
+  "detailBreakpoint": [
+    "Lá chắn tương đương 25% Máu tối đa và +3 Sức Mạnh Công Kích",
+    "Lá chắn tương đương 40% Máu tối đa và +6 Sức Mạnh Công Kích",
+    "Lá chắn tương đương 75% Máu tối đa và +12 Sức Mạnh Công Kích"
+  ],
+  "isActiveInCombat": true,
+  "haveTriggerTime": true,
+  "triggerTime": [
+    1
+  ],
+  "triggerTimeCanChange": false,
+  "haveLifeTime": true,
+  "lifeTime": [
+    99
+  ],
+  "lifeTimeCanChange": false,
+  "haveStackUp": true,
+  "maxStackUp": [
+    8
+  ],
+  "maxStackUpCanChange": false,
+  "shieldAmount": [
+    0.25,
+    0.4,
+    0.75
+  ],
+  "attackDamagePerSecond": [
+    3,
+    6,
+    12
+  ],
+  "activeAtTheStartOfCombat": true,
+  "composition": [
+    [
+      "Jax",
+      "Green"
+    ],
+    [
+      "Xin Zhao",
+      "Green"
+    ],
+    [
+      "Kennen",
+      "Blue"
+    ],
+    [
+      "Lee Sin",
+      "Blue"
+    ],
+    [
+      "Riven",
+      "Purple"
+    ],
+    [
+      "Tryndamere",
+      "Purple"
+    ]
+  ]
+},
+{
+  "_id": {
+    "$oid": "65ba46712280d9a45a6e8d9e"
+  },
+  "type": "Class",
+  "id": "mascot",
+  "name": "Linh Vật",
+  "icon": "trait_icon_mascot",
+  "description": "Tất cả đồng minh sẽ hồi phục % Máu tối đa của họ mỗi 2 giây. Tướng Linh Vật sẽ hồi phục gấp đôi.",
+  "buffOn": "Allies",
+  "breakpoint": [
+    2,
+    4,
+    6
+  ],
+  "detailBreakpoint": [
+    "1,5% Hồi máu, 3% Hồi máu cho tướng Linh Vật",
+    "3% Hồi máu, 6% Hồi máu cho tướng Linh Vật",
+    "6% Hồi máu, 12% Hồi máu cho tướng Linh Vật"
+  ],
+  "isActiveInCombat": true,
+  "haveTriggerTime": true,
+  "triggerTime": [
+    2
+  ],
+  "triggerTimeCanChange": false,
+  "haveLifeTime": true,
+  "lifeTime": [
+    1
+  ],
+  "lifeTimeCanChange": false,
+  "haveStackUp": true,
+  "maxStackUp": [
+    99
+  ],
+  "maxStackUpCanChange": false,
+  "hpRegenForAllies": [
+    0.015,
+    0.03,
+    0.06
+  ],
+  "hpRegenForMascot": [
+    0.03,
+    0.06,
+    0.12
+  ],
+  "activeAtTheStartOfCombat": true,
+  "composition": [
+    [
+      "Ahri",
+      "Gray"
+    ],
+    [
+      "Wukong",
+      "Gray"
+    ],
+    [
+      "Malphite",
+      "Green"
+    ],
+    [
+      "Alistar",
+      "Purple"
+    ],
+    [
+      "Brand",
+      "Purple"
+    ],
+    [
+      "Nami",
+      "Purple"
+    ]
+  ]
+},
+{
+  "_id": {
+    "$oid": "65ba479a2280d9a45a6e8d9f"
+  },
+  "type": "Class",
+  "id": "hextech",
+  "name": "Công Nghệ",
+  "icon": "trait_icon_hextech",
+  "description": "Tất cả đồng minh nhận thêm Năng lượng mỗi 2 giây.",
+  "buffOn": "Allies",
+  "breakpoint": [
+    1,
+    3,
+    5
+  ],
+  "detailBreakpoint": [
+    "+3 Năng lượng",
+    "+7 Năng lượng",
+    "+15 Năng lượng"
+  ],
+  "isActiveInCombat": true,
+  "triggerTime": [
+    2
+  ],
+  "triggerTimeCanChange": false,
+  "haveLifeTime": true,
+  "lifeTime": [
+    1
+  ],
+  "lifeTimeCanChange": false,
+  "haveStackUp": true,
+  "maxStackUp": [
+    99
+  ],
+  "maxStackUpCanChange": false,
+  "manaRegen": [
+    3,
+    7,
+    15
+  ],
+  "activeAtTheStartOfCombat": true,
+  "composition": [
+    [
+      "Blitzcrank",
+      "Gray"
+    ],
+    [
+      "Nautilus",
+      "Green"
+    ],
+    [
+      "Janna",
+      "Blue"
+    ],
+    [
+      "Jinx",
+      "Blue"
+    ],
+    [
+      "Mundo",
+      "Purple"
+    ]
+  ]
+},
+{
+  "_id": {
+    "$oid": "65ba4a442280d9a45a6e8da0"
+  },
+  "type": "Class",
+  "id": "yordle",
+  "name": "Yordle",
+  "icon": "trait_icon_yordle",
+  "description": "Kỹ năng của tướng Yordle tốn ít Năng lượng hơn để sử dụng và họ nhận được Năng lượng bất cứ khi nào một tướng đồng minh tử trận.",
+  "buffOn": "Allies",
+  "breakpoint": [
+    2,
+    4,
+    6
+  ],
+  "detailBreakpoint": [
+    "Giảm 20%, tăng 20 Năng lượng",
+    "Giảm 35%, tăng 35 Năng lượng",
+    "Giảm 50%, tăng 50 Năng lượng"
+  ],
+  "isActiveInCombat": true,
+  "triggerTime": [
+    2
+  ],
+  "triggerTimeCanChange": false,
+  "haveLifeTime": true,
+  "lifeTime": [
+    1
+  ],
+  "lifeTimeCanChange": false,
+  "maxStackUp": [
+    99
+  ],
+  "maxStackUpCanChange": false,
+  "decreaseManaRequired": [
+    0.2,
+    0.35,
+    0.5
+  ],
+  "restoreMana": [
+    20,
+    35,
+    50
+  ],
+  "activeAtTheStartOfCombat": true,
+  "composition": [
+    [
+      "Tristana",
+      "Gray"
+    ],
+    [
+      "Ziggs",
+      "Gray"
+    ],
+    [
+      "Amumu",
+      "Green"
+    ],
+    [
+      "Corki",
+      "Green"
+    ],
+    [
+      "Teemo",
+      "Green"
+    ],
+    [
+      "Kennen",
+      "Blue"
+    ]
+  ]
+},
+{
+  "_id": {
+    "$oid": "65ba4b282280d9a45a6e8da1"
+  },
+  "type": "Class",
+  "id": "nightbringer",
+  "name": "Ma Sứ",
+  "icon": "trait_icon_nightbringer",
+  "description": "Ma Sứ nhận một lá chắn trong 8 giây, tương đương với một phần Máu tối đa của họ lần đầu tiên họ tụt xuống dưới 50%. Khi kích hoạt hiệu ứng này, tướng Ma Sứ đó sẽ nhận thêm Xuyên Giáp và Xuyên Kháng phép.",
+  "buffOn": "Self",
+  "breakpoint": [
+    2,
+    4,
+    6,
+    8
+  ],
+  "detailBreakpoint": [
+    "30% Lá chắn, +20% Xuyên Giáp và Xuyên Kháng phép",
+    "60% Lá chắn, +30% Xuyên Giáp và Xuyên Kháng phép",
+    "90% Lá chắn, +40% Xuyên Giáp và Xuyên Kháng phép",
+    "130% Lá chắn, +50% Xuyên Giáp và Xuyên Kháng phép"
+  ],
+  "isActiveInCombat": true,
+  "haveLifeTime": true,
+  "lifeTime": [
+    8
+  ],
+  "lifeTimeCanChange": false,
+  "shieldAmout": [
+    0.3,
+    0.6,
+    0.9,
+    1.3
+  ],
+  "armorPen": [
+    0.2,
+    0.3,
+    0.4,
+    0.5
+  ],
+  "magicResistPen": [
+    0.2,
+    0.3,
+    0.4,
+    0.5
+  ],
+  "activeAtTheStartOfCombat": true,
+  "composition": [
+    [
+      "Darius",
+      "Gray"
+    ],
+    [
+      "Syndra",
+      "Green"
+    ],
+    [
+      "Katarina",
+      "Blue"
+    ],
+    [
+      "Lee Sin",
+      "Blue"
+    ],
+    [
+      "Morgana",
+      "Blue"
+    ],
+    [
+      "Miss Fortune",
+      "Purple"
+    ],
+    [
+      "Soraka",
+      "Purple"
+    ],
+    [
+      "Karthus",
+      "Gold"
+    ]
+  ]
+},
+{
+  "_id": {
+    "$oid": "65ba4d2e2280d9a45a6e8da2"
+  },
+  "type": "Class",
+  "id": "dawnbringer",
+  "name": "Thần Sứ",
+  "icon": "trait_icon_dawnbringer",
+  "description": "Thần Sứ hồi một phần Máu tối đa của bản thân lần đầu tiên máu họ tụt xuống dưới 50%. Khi kích hoạt hiệu ứng này, tướng Thần Sứ sẽ nhận thêm Hút máu Vật lý và Hút máu Phép.",
+  "buffOn": "Self",
+  "breakpoint": [
+    2,
+    4,
+    6,
+    8
+  ],
+  "detailBreakpoint": [
+    "30% Máu tối đa, +5% Hút máu Vật lý và Hút máu Phép",
+    "60% Máu tối đa, +10% Hút máu Vật lý và Hút máu Phép",
+    "90% Máu tối đa, +15% Hút máu Vật lý và Hút máu Phép",
+    "130% Máu tối đa, +20% Hút máu Vật lý và Hút máu Phép"
+  ],
+  "isActiveInCombat": true,
+  "triggerTime": [
+    2
+  ],
+  "triggerTimeCanChange": false,
+  "haveLifeTime": true,
+  "lifeTime": [
+    1
+  ],
+  "lifeTimeCanChange": false,
+  "maxStackUp": [
+    1
+  ],
+  "maxStackUpCanChange": false,
+  "healing": [
+    0.3,
+    0.6,
+    0.9,
+    1.3
+  ],
+  "physicalVamp": [
+    0.05,
+    0.1,
+    0.15,
+    0.2
+  ],
+  "spellVamp": [
+    0.05,
+    0.1,
+    0.15,
+    0.2
+  ],
+  "activeAtTheStartOfCombat": true,
+  "composition": [
+    [
+      "Ashe",
+      "Gray"
+    ],
+    [
+      "Leona",
+      "Gray"
+    ],
+    [
+      "Sivir",
+      "Green"
+    ],
+    [
+      "Garen",
+      "Blue"
+    ],
+    [
+      "Riven",
+      "Purple"
+    ],
+    [
+      "Sona",
+      "Purple"
+    ],
+    [
+      "Tryndamere",
+      "Purple"
+    ],
+    [
+      "Lux",
+      "Gold"
+    ]
+  ]
+},
+{
+  "_id": {
+    "$oid": "65ba4e152280d9a45a6e8da3"
+  },
+  "type": "Class",
+  "id": "duelist",
+  "name": "Song Đấu",
+  "icon": "trait_icon_duelist",
+  "description": "Song Đấu nhận thêm Tốc Độ Đánh mỗi giây, tối đa 8 điểm cộng dồn.",
+  "buffOn": "Self",
+  "breakpoint": [
+    2,
+    4,
+    6,
+    8
+  ],
+  "detailBreakpoint": [
+    "+12% Tốc Độ Đánh mỗi cộng dồn",
+    "+20% Tốc Độ Đánh mỗi cộng dồn",
+    "+35% Tốc Độ Đánh mỗi cộng dồn",
+    "+60% Tốc Độ Đánh mỗi cộng dồn"
+  ],
+  "isActiveInCombat": true,
+  "triggerTime": [
+    2
+  ],
+  "triggerTimeCanChange": false,
+  "haveLifeTime": true,
+  "lifeTime": [
+    1
+  ],
+  "lifeTimeCanChange": false,
+  "maxStackUp": [
+    8
+  ],
+  "maxStackUpCanChange": false,
+  "attackSpeed": [
+    0.12,
+    0.2,
+    0.35,
+    0.6
+  ],
+  "activeAtTheStartOfCombat": true,
+  "composition": [
+    [
+      "Xin Zhao",
+      "Green"
+    ],
+    [
+      "Akali",
+      "Blue"
+    ],
+    [
+      "Jax",
+      "Blue"
+    ],
+    [
+      "Vayne",
+      "Blue"
+    ],
+    [
+      "Ryze",
+      "Purple"
+    ],
+    [
+      "Ezreal",
+      "Gold"
+    ]
+  ]
+}]

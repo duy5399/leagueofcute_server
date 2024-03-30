@@ -1,0 +1,104 @@
+[{
+  "_id": {
+    "$oid": "656c855e6f18c27ef62d0233"
+  },
+  "itemID": "boomArcadeBomb",
+  "itemClass": "Boom",
+  "displayName": "Arcade Bomb",
+  "displayImage": "img_ArcadeBomb",
+  "price": {
+    "amount": 9999,
+    "currency": "crystal"
+  }
+},
+{
+  "_id": {
+    "$oid": "656c85f36f18c27ef62d0234"
+  },
+  "itemID": "boomBurnBrightStarlight",
+  "itemClass": "Boom",
+  "displayName": "Burn Bright Starlight",
+  "displayImage": "img_BurnBrightStarlight",
+  "price": {
+    "amount": 9999,
+    "currency": "crystal"
+  }
+},
+{
+  "_id": {
+    "$oid": "656c860e6f18c27ef62d0235"
+  },
+  "itemID": "boomChemtechSurprise",
+  "itemClass": "Boom",
+  "displayName": "Chemtech Surprise",
+  "displayImage": "img_ChemtechSurprise",
+  "price": {
+    "amount": 9999,
+    "currency": "crystal"
+  }
+},
+{
+  "_id": {
+    "$oid": "656c86316f18c27ef62d0236"
+  },
+  "itemID": "boomCosmicTracer",
+  "itemClass": "Boom",
+  "displayName": "Cosmic Tracer",
+  "displayImage": "img_CosmicTracer",
+  "price": {
+    "amount": 9999,
+    "currency": "crystal"
+  }
+},
+{
+  "_id": {
+    "$oid": "656c86446f18c27ef62d0237"
+  },
+  "itemID": "boomHextechHypersurge",
+  "itemClass": "Boom",
+  "displayName": "Hextech Hypersurge",
+  "displayImage": "img_HextechHypersurge",
+  "price": {
+    "amount": 9999,
+    "currency": "crystal"
+  }
+},
+{
+  "_id": {
+    "$oid": "656c86566f18c27ef62d0238"
+  },
+  "itemID": "boomHydroblast",
+  "itemClass": "Boom",
+  "displayName": "Hydroblast",
+  "displayImage": "img_Hydroblast",
+  "price": {
+    "amount": 9999,
+    "currency": "crystal"
+  }
+},
+{
+  "_id": {
+    "$oid": "656c86736f18c27ef62d0239"
+  },
+  "itemID": "boomNovaBomb",
+  "itemClass": "Boom",
+  "displayName": "Nova Bomb",
+  "displayImage": "img_NovaBomb",
+  "price": {
+    "amount": 9999,
+    "currency": "crystal"
+  }
+},
+{
+  "_id": {
+    "$oid": "656c86906f18c27ef62d023a"
+  },
+  "itemID": "boomPrismaticSmite",
+  "itemClass": "Boom",
+  "displayName": "Prismatic Smite",
+  "displayImage": "img_PrismaticSmite",
+  "price": {
+    "amount": 9999,
+    "currency": "crystal"
+  }
+}]

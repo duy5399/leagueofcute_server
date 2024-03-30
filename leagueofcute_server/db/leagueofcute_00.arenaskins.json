@@ -1,0 +1,130 @@
+[{
+  "_id": {
+    "$oid": "656c5cee903ffe5155782dba"
+  },
+  "itemID": "battlefield1",
+  "itemClass": "ArenaSkin",
+  "displayName": "Default",
+  "displayImage": "battlefield",
+  "price": {
+    "amount": 9999,
+    "currency": "gold"
+  }
+},
+{
+  "_id": {
+    "$oid": "656c5db7903ffe5155782dbb"
+  },
+  "itemID": "battlefield10",
+  "itemClass": "ArenaSkin",
+  "displayName": "Basic Verdant",
+  "displayImage": "battlefield10",
+  "price": {
+    "amount": 9999,
+    "currency": "gold"
+  }
+},
+{
+  "_id": {
+    "$oid": "656c5df6903ffe5155782dbc"
+  },
+  "itemID": "battlefield2",
+  "itemClass": "ArenaSkin",
+  "displayName": "Runic",
+  "displayImage": "battlefield2",
+  "price": {
+    "amount": 9999,
+    "currency": "gold"
+  }
+},
+{
+  "_id": {
+    "$oid": "656c5e0b903ffe5155782dbd"
+  },
+  "itemID": "battlefield3",
+  "itemClass": "ArenaSkin",
+  "displayName": "Arrowhead",
+  "displayImage": "battlefield3",
+  "price": {
+    "amount": 9999,
+    "currency": "gold"
+  }
+},
+{
+  "_id": {
+    "$oid": "656c5e4f903ffe5155782dbe"
+  },
+  "itemID": "battlefield4",
+  "itemClass": "ArenaSkin",
+  "displayName": "Basic Draconic",
+  "displayImage": "battlefield4",
+  "price": {
+    "amount": 9999,
+    "currency": "gold"
+  }
+},
+{
+  "_id": {
+    "$oid": "656c5e5f903ffe5155782dbf"
+  },
+  "itemID": "battlefield5",
+  "itemClass": "ArenaSkin",
+  "displayName": "Mountain",
+  "displayImage": "battlefield5",
+  "price": {
+    "amount": 9999,
+    "currency": "gold"
+  }
+},
+{
+  "_id": {
+    "$oid": "656c5e7a903ffe5155782dc0"
+  },
+  "itemID": "battlefield6",
+  "itemClass": "ArenaSkin",
+  "displayName": "Infernal",
+  "displayImage": "battlefield6",
+  "price": {
+    "amount": 9999,
+    "currency": "gold"
+  }
+},
+{
+  "_id": {
+    "$oid": "656c5e94903ffe5155782dc1"
+  },
+  "itemID": "battlefield7",
+  "itemClass": "ArenaSkin",
+  "displayName": "Ocean",
+  "displayImage": "battlefield7",
+  "price": {
+    "amount": 9999,
+    "currency": "gold"
+  }
+},
+{
+  "_id": {
+    "$oid": "656c5ea4903ffe5155782dc2"
+  },
+  "itemID": "battlefield8",
+  "itemClass": "ArenaSkin",
+  "displayName": "Cloud",
+  "displayImage": "battlefield8",
+  "price": {
+    "amount": 9999,
+    "currency": "gold"
+  }
+},
+{
+  "_id": {
+    "$oid": "656c5eb7903ffe5155782dc3"
+  },
+  "itemID": "battlefield9",
+  "itemClass": "ArenaSkin",
+  "displayName": "Rift",
+  "displayImage": "battlefield9",
+  "price": {
+    "amount": 9999,
+    "currency": "gold"
+  }
+}]

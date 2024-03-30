@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "657470692975562c836693fd"
+  },
+  "username": "duy",
+  "friends": [
+    {
+      "friendName": "duy1",
+      "status": 1,
+      "_id": {
+        "$oid": "6602a63bb64b42a7085bb4f0"
+      }
+    }
+  ],
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "65753dcfbb9de752a6cb5fed"
+  },
+  "username": "duy1",
+  "friends": [
+    {
+      "friendName": "duy",
+      "status": 1,
+      "_id": {
+        "$oid": "6602a63bb64b42a7085bb4f3"
+      }
+    }
+  ],
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "65e8b3607ec32ec1d2521af9"
+  },
+  "username": "duy3",
+  "friends": [],
+  "__v": 0
+}]

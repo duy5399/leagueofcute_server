@@ -1,0 +1,64 @@
+[{
+  "_id": {
+    "$oid": "657470692975562c836693fc"
+  },
+  "username": "duy",
+  "gold": 90001,
+  "crystal": 0,
+  "tacticians": [
+    "petavatar"
+  ],
+  "arenaSkins": [
+    "battlefield1",
+    "battlefield9"
+  ],
+  "booms": [
+    "boomArcadeBomb"
+  ],
+  "tacticianEquip": "petavatar",
+  "arenaSkinEquip": "battlefield9",
+  "boomEquip": "boomArcadeBomb",
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "65753dcfbb9de752a6cb5fec"
+  },
+  "username": "duy1",
+  "gold": 0,
+  "crystal": 0,
+  "tacticians": [
+    "petavatar"
+  ],
+  "arenaSkins": [
+    "battlefield1"
+  ],
+  "booms": [
+    "boomArcadeBomb"
+  ],
+  "tacticianEquip": "petavatar",
+  "arenaSkinEquip": "battlefield1",
+  "boomEquip": "boomArcadeBomb",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e8b3697ec32ec1d2521afb"
+  },
+  "username": "duy3",
+  "gold": 0,
+  "crystal": 0,
+  "tacticians": [
+    "petavatar"
+  ],
+  "arenaSkins": [
+    "battlefield1"
+  ],
+  "booms": [
+    "boomArcadeBomb"
+  ],
+  "tacticianEquip": "petavatar",
+  "arenaSkinEquip": "battlefield1",
+  "boomEquip": "boomArcadeBomb",
+  "__v": 0
+}]

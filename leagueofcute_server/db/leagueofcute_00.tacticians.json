@@ -1,0 +1,104 @@
+[{
+  "_id": {
+    "$oid": "656c890d6f18c27ef62d023c"
+  },
+  "itemID": "petavatar",
+  "itemClass": "Tactician",
+  "displayName": "Egg Sprite",
+  "displayImage": "tooltip_tftavatar_set7launchbattlepass_egg_tier1",
+  "price": {
+    "amount": 9999,
+    "currency": "gold"
+  }
+},
+{
+  "_id": {
+    "$oid": "656c8a256f18c27ef62d023d"
+  },
+  "itemID": "petbuglet",
+  "itemClass": "Tactician",
+  "displayName": "Birthday Fluttercake",
+  "displayImage": "tooltip_buglet_anniversary_variant1_tier1",
+  "price": {
+    "amount": 9999,
+    "currency": "crystal"
+  }
+},
+{
+  "_id": {
+    "$oid": "656c8a5e6f18c27ef62d023e"
+  },
+  "itemID": "petchoncc",
+  "itemClass": "Tactician",
+  "displayName": "Choncc",
+  "displayImage": "tooltip_choncc_classic_tier3",
+  "price": {
+    "amount": 9999,
+    "currency": "gold"
+  }
+},
+{
+  "_id": {
+    "$oid": "656c8a8e6f18c27ef62d023f"
+  },
+  "itemID": "petghosty",
+  "itemClass": "Tactician",
+  "displayName": "Shadowmask Hauntling",
+  "displayImage": "tooltip_ghosty_black_tier3",
+  "price": {
+    "amount": 9999,
+    "currency": "gold"
+  }
+},
+{
+  "_id": {
+    "$oid": "656c8aa76f18c27ef62d0240"
+  },
+  "itemID": "petglion",
+  "itemClass": "Tactician",
+  "displayName": "Tundra Furyhorn",
+  "displayImage": "tooltip_grumpylion_dark_tier3",
+  "price": {
+    "amount": 9999,
+    "currency": "gold"
+  }
+},
+{
+  "_id": {
+    "$oid": "656c8ac26f18c27ef62d0241"
+  },
+  "itemID": "pethushtail",
+  "itemClass": "Tactician",
+  "displayName": "Mistberry Hushtail",
+  "displayImage": "tooltip_spiritfox_mistberry_tier3",
+  "price": {
+    "amount": 9999,
+    "currency": "gold"
+  }
+},
+{
+  "_id": {
+    "$oid": "656c8ae36f18c27ef62d0242"
+  },
+  "itemID": "petminigolem",
+  "itemClass": "Tactician",
+  "displayName": "Birthday Cakespirit",
+  "displayImage": "tooltip_minigolem_anniversary_variant1_tier1",
+  "price": {
+    "amount": 9999,
+    "currency": "crystal"
+  }
+},
+{
+  "_id": {
+    "$oid": "656c8b016f18c27ef62d0243"
+  },
+  "itemID": "petpengu",
+  "itemClass": "Tactician",
+  "displayName": "Pengu Featherknight",
+  "displayImage": "tooltip_penguknight_classic_tier3",
+  "price": {
+    "amount": 9999,
+    "currency": "crystal"
+  }
+}]

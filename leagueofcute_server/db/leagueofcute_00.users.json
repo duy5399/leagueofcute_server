@@ -1,0 +1,68 @@
+[{
+  "_id": {
+    "$oid": "657470692975562c836693fb"
+  },
+  "username": "duy",
+  "password": "392498b2f4ff406654fe128e4df9a138",
+  "email": "duy@gmail.com",
+  "profileImage": "Demacia_Crest_profileicon",
+  "level": 1,
+  "rank": "Challenger",
+  "points": 5435,
+  "online": true,
+  "status": "I am the best",
+  "socketID": "9s5q6MQC0wjm60YgAAAB",
+  "lastLogin": "3/29/2024, 9:24:29 PM",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65753dcfbb9de752a6cb5feb"
+  },
+  "username": "duy1",
+  "password": "392498b2f4ff406654fe128e4df9a138",
+  "email": "uy1@gmail.com",
+  "profileImage": "Demacia_Crest_profileicon",
+  "level": 1,
+  "rank": "Grandmaster",
+  "points": 993,
+  "online": true,
+  "status": "I am the best",
+  "socketID": "J0hd0BOE2YkBPinMAAAD",
+  "lastLogin": "3/29/2024, 9:25:03 PM",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e8b04d7ec32ec1d2521af5"
+  },
+  "username": "duy2",
+  "password": "392498b2f4ff406654fe128e4df9a138",
+  "email": "uy2@gmail.com",
+  "profileImage": "Demacia_Crest_profileicon",
+  "level": 1,
+  "rank": "Challenger",
+  "points": 1175,
+  "online": true,
+  "status": "I am the best",
+  "socketID": "8zW6eQpBMLYbMhYLAAAH",
+  "lastLogin": "3/6/2024, 12:11:37 AM",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e8b0747ec32ec1d2521af6"
+  },
+  "username": "duy3",
+  "password": "392498b2f4ff406654fe128e4df9a138",
+  "email": "uy3@gmail.com",
+  "profileImage": "Demacia_Crest_profileicon",
+  "level": 1,
+  "rank": "Grandmaster",
+  "points": 900,
+  "online": true,
+  "status": "I am the best",
+  "socketID": "wL6r9ZkU1Kh5HwJ4AAAB",
+  "lastLogin": "3/7/2024, 1:18:41 AM",
+  "__v": 0
+}]

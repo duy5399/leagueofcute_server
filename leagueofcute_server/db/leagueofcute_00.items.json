@@ -1,0 +1,1198 @@
+[{
+  "_id": {
+    "$oid": "65c9011c61cb3e91b68345c8"
+  },
+  "idItem": "bf_sword",
+  "name": "Kiếm B.F",
+  "icon": "B._F._Sword_TFT_item",
+  "stats": [
+    {
+      "typeStat": "AD",
+      "icon": "<sprite name=ad_icon>",
+      "amount": 0.1,
+      "typeBuff": "Mult"
+    }
+  ],
+  "descriptionStat": "<sprite name=ad_icon> +10%",
+  "descriptionPassive": "<sprite name=ad_icon> +10% Sức Mạnh Công Kích",
+  "typeItem": "BasicItem",
+  "slotRequired": 1,
+  "isUnique": false,
+  "recipe": {
+    "bf_sword": "deathblade",
+    "negatron_cloak": "bloodthirster",
+    "needlessly_large_rod": "hextech_gunblade",
+    "tear_of_the_goddess": "spear_of_shojin",
+    "giants_belt": "steraks_gage",
+    "sparring_gloves": "infinity_edge"
+  },
+  "passive": {}
+},
+{
+  "_id": {
+    "$oid": "65d44813ec041c3cf02eabe6"
+  },
+  "idItem": "recurve_bow",
+  "name": "Cung Gỗ",
+  "icon": "Recurve_Bow_TFT_item",
+  "stats": [
+    {
+      "typeStat": "AS",
+      "icon": "<sprite name=as_icon>",
+      "amount": 0.1,
+      "typeBuff": "Mult"
+    }
+  ],
+  "descriptionStat": "<sprite name=as_icon> +10%",
+  "descriptionPassive": "<sprite name=as_icon> +10% Tốc Độ Đánh",
+  "typeItem": "BasicItem",
+  "slotRequired": 1,
+  "isUnique": false,
+  "recipe": {
+    "chain_vest": "titans_resolve",
+    "needlessly_large_rod": "guinsoos_rageblade",
+    "giants_belt": "nashors_tooth",
+    "sparring_gloves": "last_whisper"
+  },
+  "passive": {}
+},
+{
+  "_id": {
+    "$oid": "65d44a7eec041c3cf02eabe7"
+  },
+  "idItem": "chain_vest",
+  "name": "Giáp Lưới",
+  "icon": "Chain_Vest_TFT_item",
+  "stats": [
+    {
+      "typeStat": "AR",
+      "icon": "<sprite name=ar_icon>",
+      "amount": 20,
+      "typeBuff": "Add"
+    }
+  ],
+  "descriptionStat": "<sprite name=ar_icon> +20",
+  "descriptionPassive": "<sprite name=ar_icon> +20 Giáp",
+  "typeItem": "BasicItem",
+  "slotRequired": 1,
+  "isUnique": false,
+  "recipe": {
+    "recurve_bow": "titans_resolve",
+    "chain_vest": "bramble_vest",
+    "negatron_cloak": "gargoyle_stoneplate",
+    "giants_belt": "sunfire_cape",
+    "tear_of_the_goddess": "frozen_heart"
+  },
+  "passive": {}
+},
+{
+  "_id": {
+    "$oid": "65d44b29ec041c3cf02eabe8"
+  },
+  "idItem": "negatron_cloak",
+  "name": "Áo Choàng Bạc",
+  "icon": "Negatron_Cloak_TFT_item",
+  "stats": [
+    {
+      "typeStat": "MR",
+      "icon": "<sprite name=mr_icon>",
+      "amount": 20,
+      "typeBuff": "Add"
+    }
+  ],
+  "descriptionStat": "<sprite name=mr_icon> +20",
+  "descriptionPassive": "<sprite name=mr_icon> +20 Kháng Phép",
+  "typeItem": "BasicItem",
+  "slotRequired": 1,
+  "isUnique": false,
+  "recipe": {
+    "bf_sword": "bloodthirster",
+    "chain_vest": "gargoyle_stoneplate",
+    "negatron_cloak": "dragons_claw"
+  },
+  "passive": {}
+},
+{
+  "_id": {
+    "$oid": "65d44ee2ec041c3cf02eabea"
+  },
+  "idItem": "needlessly_large_rod",
+  "name": "Gậy Quá Khổ",
+  "icon": "Needlessly_Large_Rod_TFT_item",
+  "stats": [
+    {
+      "typeStat": "AP",
+      "icon": "<sprite name=ap_icon>",
+      "amount": 10,
+      "typeBuff": "Add"
+    }
+  ],
+  "descriptionStat": "<sprite name=ap_icon> +10",
+  "descriptionPassive": "<sprite name=ap_icon> +10 Sức Mạnh Phép Thuật",
+  "typeItem": "BasicItem",
+  "slotRequired": 1,
+  "isUnique": false,
+  "recipe": {
+    "bf_sword": "hextech_gunblade",
+    "recurve_bow": "guinsoos_rageblade",
+    "needlessly_large_rod": "rabadons_deathcap",
+    "tear_of_the_goddess": "archangels_staff",
+    "sparring_gloves": "jeweled_gauntlet"
+  },
+  "passive": {}
+},
+{
+  "_id": {
+    "$oid": "65d44eedec041c3cf02eabeb"
+  },
+  "idItem": "tear_of_the_goddess",
+  "name": "Nước Mắt Nữ Thần",
+  "icon": "Tear_of_the_Goddess_TFT_item",
+  "stats": [
+    {
+      "typeStat": "MP",
+      "icon": "<sprite name=mp_icon>",
+      "amount": 15,
+      "typeBuff": "Add"
+    }
+  ],
+  "descriptionStat": "<sprite name=mp_icon> +15",
+  "descriptionPassive": "<sprite name=mp_icon> +15 Năng lượng",
+  "typeItem": "BasicItem",
+  "slotRequired": 1,
+  "isUnique": false,
+  "recipe": {
+    "bf_sword": "spear_of_shojin",
+    "needlessly_large_rod": "archangels_staff",
+    "tear_of_the_goddess": "blue_buff",
+    "chain_vest": "frozen_heart"
+  },
+  "passive": {}
+},
+{
+  "_id": {
+    "$oid": "65d44f78ec041c3cf02eabec"
+  },
+  "idItem": "giants_belt",
+  "name": "Đai Khổng Lồ",
+  "icon": "Giants_Belt_item",
+  "stats": [
+    {
+      "typeStat": "HP",
+      "icon": "<sprite name=hp_icon>",
+      "amount": 150,
+      "typeBuff": "Add"
+    }
+  ],
+  "descriptionStat": "<sprite name=hp_icon> +150",
+  "descriptionPassive": "<sprite name=hp_icon> +150 Máu",
+  "typeItem": "BasicItem",
+  "slotRequired": 1,
+  "isUnique": false,
+  "recipe": {
+    "bf_sword": "steraks_gage",
+    "recurve_bow": "nashors_tooth",
+    "chain_vest": "sunfire_cape",
+    "giants_belt": "warmogs_armor"
+  },
+  "passive": {}
+},
+{
+  "_id": {
+    "$oid": "65d45105ec041c3cf02eabed"
+  },
+  "idItem": "sparring_gloves",
+  "name": "Găng Đấu Tập",
+  "icon": "Sparring_Gloves_TFT_item",
+  "stats": [
+    {
+      "typeStat": "CritChance",
+      "icon": "<sprite name=crit-chance_icon>",
+      "amount": 0.2,
+      "typeBuff": "Add"
+    }
+  ],
+  "descriptionStat": "<sprite name=crit-chance_icon> +20%",
+  "descriptionPassive": "<sprite name=crit-chance_icon> +20% Tỉ lệ Chí mạng",
+  "typeItem": "BasicItem",
+  "slotRequired": 1,
+  "isUnique": false,
+  "recipe": {
+    "bf_sword": "infinity_edge",
+    "needlessly_large_rod": "jeweled_gauntlet",
+    "recurve_bow": "last_whisper"
+  },
+  "passive": {}
+},
+{
+  "_id": {
+    "$oid": "65d45367ec041c3cf02eabee"
+  },
+  "idItem": "deathblade",
+  "name": "Kiếm Tử Thần",
+  "icon": "Deathblade_TFT_item",
+  "stats": [
+    {
+      "typeStat": "AD",
+      "amount": 0.66,
+      "typeBuff": "Mult"
+    }
+  ],
+  "descriptionStat": "<sprite name=ad_icon> +66%",
+  "descriptionPassive": "<sprite name=ad_icon> +66% Sức Mạnh Công Kích",
+  "typeItem": "AdvancedItem",
+  "slotRequired": 1,
+  "isUnique": false,
+  "passive": {}
+},
+{
+  "_id": {
+    "$oid": "65d45374ec041c3cf02eabef"
+  },
+  "idItem": "hextech_gunblade",
+  "name": "Kiếm Súng Hextech",
+  "icon": "Hextech_Gunblade_TFT_item",
+  "stats": [
+    {
+      "typeStat": "AD",
+      "icon": "<sprite name=ad_icon>",
+      "amount": 0.15,
+      "typeBuff": "Mult"
+    },
+    {
+      "typeStat": "AP",
+      "icon": "<sprite name=ap_icon>",
+      "amount": 0.15,
+      "typeBuff": "Add"
+    }
+  ],
+  "description": "Nhận 22% <sprite name=vamp_icon> Hút Máu Toàn Phần",
+  "typeItem": "AdvancedItem",
+  "slotRequired": 1,
+  "isUnique": false,
+  "passive": {}
+},
+{
+  "_id": {
+    "$oid": "65d469d7ec041c3cf02eabf0"
+  },
+  "idItem": "steraks_gage",
+  "name": "Móng Vuốt Sterak",
+  "icon": "Steraks_Gage_TFT_item",
+  "stats": [
+    {
+      "typeStat": "AD",
+      "amount": 0.15,
+      "typeBuff": "Mult"
+    },
+    {
+      "typeStat": "HP",
+      "amount": 200,
+      "typeBuff": "Add"
+    }
+  ],
+  "descriptionStat": "<sprite name=ad_icon> +15%  <sprite name=hp_icon> +200",
+  "descriptionPassive": "Một lần mỗi giao tranh: Khi còn dưới 60% Máu, nhận một lá chắn tương đương 25% Máu tối đa, tồn tại trong 5 giây, đồng thời nhận 35% Sức Mạnh Công Kích trong phần còn lại của giao tranh.",
+  "typeItem": "AdvancedItem",
+  "slotRequired": 1,
+  "isUnique": false,
+  "passive": {
+    "condition": "Passive",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": false,
+    "canUseSelf": true,
+    "canBeSilenced": false,
+    "searchAmong": "Allies",
+    "isTriggerChAnim": false,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": true,
+    "delayTrigger": 0,
+    "canCrit": false,
+    "shield": {
+      "buffID": "steraks_gage_shield_self",
+      "buffOn": "Allies",
+      "buffRange": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        5
+      ],
+      "destroyOnLifeEnding": true,
+      "addType": "None",
+      "lifeTimeCanChange": false,
+      "shieldAmount": [
+        0
+      ],
+      "extraMaxHpPercentage": [
+        0.25
+      ],
+      "extraCurrentHpPercentage": [
+        0
+      ],
+      "extraMissingHpPercentage": [
+        0
+      ],
+      "shieldAmountCanChange": false,
+      "extraMaxHpPercentageCanChange": false,
+      "extraCurrentHpPercentageCanChange": false,
+      "extraMissingHpPercentageCanChange": false,
+      "maxHit": [
+        1
+      ],
+      "maxHitCanChange": false
+    },
+    "increaseAD": {
+      "buffID": "steraks_gage_increaseAD_self",
+      "buffOn": "Self",
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        99
+      ],
+      "destroyOnLifeEnding": true,
+      "addType": "UpdateLifetime",
+      "lifeTimeCanChange": false,
+      "attackDamageAdd": [
+        0
+      ],
+      "attackDamageMult": [
+        0.35
+      ],
+      "attackDamageAddCanChange": false,
+      "attackDamageMultCanChange": false
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "65d46b10ec041c3cf02eabf1"
+  },
+  "idItem": "nashors_tooth",
+  "name": "Nanh Nashor",
+  "icon": "Nashors_Tooth_TFT_item",
+  "stats": [
+    {
+      "typeStat": "AS",
+      "amount": 0.1,
+      "typeBuff": "Mult"
+    },
+    {
+      "typeStat": "HP",
+      "amount": 150,
+      "typeBuff": "Add"
+    },
+    {
+      "typeStat": "AP",
+      "amount": 30,
+      "typeBuff": "Add"
+    }
+  ],
+  "descriptionStat": "<sprite name=as_icon> +10%  <sprite name=hp_icon> +150  <sprite name=ap_icon> +30",
+  "descriptionPassive": "Sau khi sử dụng kỹ năng, nhận thêm 40% Tốc Độ Đánh trong 5 giây.",
+  "typeItem": "AdvancedItem",
+  "slotRequired": 1,
+  "isUnique": false,
+  "passive": {
+    "condition": "Active",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": false,
+    "canUseSelf": true,
+    "canBeSilenced": false,
+    "searchAmong": "Allies",
+    "isTriggerChAnim": false,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": true,
+    "delayTrigger": 0,
+    "canCrit": false,
+    "increaseAS": {
+      "buffID": "nashors_tooth_increaseAS_self",
+      "buffOn": "Self",
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        5
+      ],
+      "destroyOnLifeEnding": true,
+      "addType": "UpdateLifetime",
+      "lifeTimeCanChange": false,
+      "attackSpeedMult": [
+        0.4
+      ],
+      "attackSpeedMultCanChange": false
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "65d47055ec041c3cf02eabf2"
+  },
+  "idItem": "sunfire_cape",
+  "name": "Áo Choàng Lửa",
+  "icon": "Sunfire_Cape_TFT_item",
+  "stats": [
+    {
+      "typeStat": "AR",
+      "icon": "<sprite name=ar_icon>",
+      "amount": 20,
+      "typeBuff": "Add"
+    },
+    {
+      "typeStat": "HP",
+      "icon": "<sprite name=hp_icon>",
+      "amount": 200,
+      "typeBuff": "Add"
+    }
+  ],
+  "description": "Mỗi 2 giây, một kẻ địch ngẫu nhiên trong phạm vi 2 ô bị gây 100 Sát thương Chuẩn và 33% hiệu ứng Vết Thương Sâu trong 10 giây.",
+  "typeItem": "AdvancedItem",
+  "slotRequired": 1,
+  "isUnique": true,
+  "passive": {
+    "condition": "Active",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": false,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": false,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": true,
+    "delayTrigger": 0,
+    "canCrit": false,
+    "aoe": {
+      "aoePos": "Self",
+      "aoeRange": 3,
+      "maxHitNum": 1,
+      "lifeTime": 1,
+      "triggerOnHit": "FirstCollision",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "True",
+      "ad": [
+        0
+      ],
+      "ap": [
+        0
+      ],
+      "trueDmg": [
+        100
+      ],
+      "adMultiplier": [
+        0
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "65d4710eec041c3cf02eabf3"
+  },
+  "idItem": "warmogs_armor",
+  "name": "Giáp Máu Warmog",
+  "icon": "Warmogs_Armor_item",
+  "stats": [
+    {
+      "typeStat": "HP",
+      "amount": 600,
+      "typeBuff": "Add"
+    },
+    {
+      "typeStat": "HP",
+      "amount": 0.08,
+      "typeBuff": "Mult"
+    }
+  ],
+  "descriptionStat": "<sprite name=hp_icon> +600",
+  "descriptionPassive": "Nhận thêm 8% Máu tối đa.",
+  "typeItem": "AdvancedItem",
+  "slotRequired": 1,
+  "isUnique": false,
+  "passive": {}
+},
+{
+  "_id": {
+    "$oid": "65d47417ec041c3cf02eabf4"
+  },
+  "idItem": "guinsoos_rageblade",
+  "name": "Cuồng Đao Guinsoo",
+  "icon": "Guinsoos_Rageblade_item",
+  "stats": [
+    {
+      "typeStat": "AS",
+      "amount": 0.15,
+      "typeBuff": "Mult"
+    },
+    {
+      "typeStat": "AP",
+      "amount": 10,
+      "typeBuff": "Add"
+    }
+  ],
+  "descriptionStat": "<sprite name=as_icon> +15%  <sprite name=ap_icon> +10",
+  "descriptionPassive": "Đòn đánh giúp tăng 5% Tốc Độ Đánh, hiệu ứng này có thể cộng dồn.",
+  "typeItem": "AdvancedItem",
+  "slotRequired": 1,
+  "isUnique": false,
+  "passive": {
+    "condition": "Active",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": false,
+    "canUseSelf": true,
+    "canBeSilenced": false,
+    "searchAmong": "Allies",
+    "isTriggerChAnim": false,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": true,
+    "delayTrigger": 0,
+    "canCrit": false,
+    "increaseAS": {
+      "buffID": "guinsoos_rageblade_increaseAS_self",
+      "buffOn": "Self",
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        10
+      ],
+      "destroyOnLifeEnding": true,
+      "addType": "StackUp",
+      "maxStackUp": 99,
+      "lifeTimeCanChange": false,
+      "attackSpeedMult": [
+        0.05
+      ],
+      "attackSpeedMultCanChange": false
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "65d47b07ec041c3cf02eabf5"
+  },
+  "idItem": "archangels_staff",
+  "name": "Quyền Trượng Thiên Thần",
+  "icon": "Archangels_Staff_TFT_item",
+  "stats": [
+    {
+      "typeStat": "AP",
+      "amount": 20,
+      "typeBuff": "Add"
+    },
+    {
+      "typeStat": "MP",
+      "amount": 15,
+      "typeBuff": "Add"
+    }
+  ],
+  "descriptionStat": "<sprite name=ap_icon> +20  <sprite name=mp_icon> +15",
+  "descriptionPassive": "Bắt đầu giao tranh: tăng 30 Sức Mạnh Phép Thuật mỗi 5 giây.",
+  "typeItem": "AdvancedItem",
+  "slotRequired": 1,
+  "isUnique": false,
+  "passive": {
+    "increaseAP": {
+      "abilityDamageAdd": [
+        30
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "65d47eecec041c3cf02eabf6"
+  },
+  "idItem": "gargoyle_stoneplate",
+  "name": "Thú Tượng Thạch Giáp",
+  "icon": "Gargoyle_Stoneplate_TFT_item",
+  "stats": [
+    {
+      "typeStat": "AR",
+      "amount": 30,
+      "typeBuff": "Add"
+    },
+    {
+      "typeStat": "MR",
+      "amount": 30,
+      "typeBuff": "Add"
+    }
+  ],
+  "descriptionStat": "<sprite name=ar_icon> +30  <sprite name=mr_icon> +30",
+  "descriptionPassive": "Một lần mỗi giao tranh, khi còn 40% Máu, nhận một lá chắn tương đương 25% Máu tối đa, tồn tại trong 5 giây, đồng thời nhận 25 Giáp và 25 Kháng Phép trong phần còn lại của giao tranh.",
+  "typeItem": "AdvancedItem",
+  "slotRequired": 1,
+  "isUnique": false,
+  "passive": {
+    "condition": "Passive",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": false,
+    "canUseSelf": true,
+    "canBeSilenced": false,
+    "searchAmong": "Allies",
+    "isTriggerChAnim": false,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": true,
+    "delayTrigger": 0,
+    "canCrit": false,
+    "shield": {
+      "buffID": "gargoyle_stoneplate_shield_allies",
+      "buffOn": "Allies",
+      "buffRange": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        5
+      ],
+      "destroyOnLifeEnding": true,
+      "addType": "None",
+      "lifeTimeCanChange": false,
+      "shieldAmount": [
+        0
+      ],
+      "extraMaxHpPercentage": [
+        0.25
+      ],
+      "extraCurrentHpPercentage": [
+        0
+      ],
+      "extraMissingHpPercentage": [
+        0
+      ],
+      "shieldAmountCanChange": false,
+      "extraMaxHpPercentageCanChange": false,
+      "extraCurrentHpPercentageCanChange": false,
+      "extraMissingHpPercentageCanChange": false,
+      "maxHit": [
+        1
+      ],
+      "maxHitCanChange": false
+    },
+    "increaseAR": {
+      "armorAdd": [
+        20
+      ]
+    },
+    "increaseMR": {
+      "magicResistanceAdd": [
+        20
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "65d481dcec041c3cf02eabf7"
+  },
+  "idItem": "infinity_edge",
+  "name": "Vô Cực Kiếm",
+  "icon": "Infinity_Edge_TFT_item",
+  "stats": [
+    {
+      "typeStat": "AD",
+      "icon": "<sprite name=ad_icon>",
+      "amount": 0.35,
+      "typeBuff": "Mult"
+    },
+    {
+      "typeStat": "CritChance",
+      "icon": "<sprite name=crit-chance_icon>",
+      "amount": 0.35,
+      "typeBuff": "Add"
+    }
+  ],
+  "description": "Kỹ năng có thể gây chí mạng.",
+  "typeItem": "AdvancedItem",
+  "slotRequired": 1,
+  "isUnique": false,
+  "passive": {}
+},
+{
+  "_id": {
+    "$oid": "65d48214ec041c3cf02eabf8"
+  },
+  "idItem": "jeweled_gauntlet",
+  "name": "Găng Bảo Thạch",
+  "icon": "Jeweled_Gauntlet_TFT_item",
+  "stats": [
+    {
+      "typeStat": "AP",
+      "icon": "<sprite name=ap_icon>",
+      "amount": 35,
+      "typeBuff": "Add"
+    },
+    {
+      "typeStat": "CritChance",
+      "icon": "<sprite name=crit-chance_icon>",
+      "amount": 0.35,
+      "typeBuff": "Add"
+    }
+  ],
+  "description": "Kỹ năng có thể gây chí mạng.",
+  "typeItem": "AdvancedItem",
+  "slotRequired": 1,
+  "isUnique": false,
+  "passive": {}
+},
+{
+  "_id": {
+    "$oid": "65d486d8ec041c3cf02eabf9"
+  },
+  "idItem": "spear_of_shojin",
+  "name": "Ngọn Giáo Shojin",
+  "icon": "Spear_of_Shojin_TFT_item",
+  "stats": [
+    {
+      "typeStat": "AD",
+      "amount": 0.2,
+      "typeBuff": "Mult"
+    },
+    {
+      "typeStat": "AP",
+      "amount": 20,
+      "typeBuff": "Add"
+    },
+    {
+      "typeStat": "MP",
+      "amount": 15,
+      "typeBuff": "Add"
+    }
+  ],
+  "descriptionStat": "<sprite name=ad_icon> +20%  <sprite name=ap_icon> +20  <sprite name=mp_icon> +15",
+  "descriptionPassive": "Các đòn đánh giúp hồi lại 6 Năng lượng.",
+  "typeItem": "AdvancedItem",
+  "slotRequired": 1,
+  "isUnique": false,
+  "passive": {}
+},
+{
+  "_id": {
+    "$oid": "65d48817ec041c3cf02eabfa"
+  },
+  "idItem": "frozen_heart",
+  "name": "Tim Băng",
+  "icon": "Frozen_Heart_TFT_item",
+  "stats": [
+    {
+      "typeStat": "AR",
+      "icon": "<sprite name=ar_icon>",
+      "amount": 20,
+      "typeBuff": "Add"
+    },
+    {
+      "typeStat": "MP",
+      "icon": "<sprite name=mp_icon>",
+      "amount": 30,
+      "typeBuff": "Add"
+    }
+  ],
+  "descriptionStat": "<sprite name=ar_icon> +20  <sprite name=mp_icon> +30",
+  "descriptionPassive": "Giảm 30% Tốc Độ Đánh của tất cả kẻ địch trong phạm vi 2 ô.",
+  "typeItem": "AdvancedItem",
+  "slotRequired": 1,
+  "isUnique": true,
+  "passive": {
+    "condition": "Active",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": false,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": false,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": true,
+    "delayTrigger": 0,
+    "canCrit": false,
+    "aoe": {
+      "aoePos": "Self",
+      "aoeRange": 3,
+      "maxHitNum": 99,
+      "lifeTime": 99,
+      "triggerOnHit": "EveryCollision",
+      "hitRange": 0.3,
+      "canHitMultiTime": true
+    },
+    "decreaseAS": {
+      "buffID": "frozen_heart_decreaseAS_enemy",
+      "buffOn": "Target",
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        5
+      ],
+      "destroyOnLifeEnding": true,
+      "addType": "UpdateLifetime",
+      "lifeTimeCanChange": false,
+      "attackSpeedMult": [
+        0.3
+      ],
+      "attackSpeedMultCanChange": false
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "65d49507ec041c3cf02eabfb"
+  },
+  "idItem": "bramble_vest",
+  "name": "Áo Choàng Gai",
+  "icon": "Bramble_Vest_TFT_item",
+  "stats": [
+    {
+      "typeStat": "AR",
+      "amount": 55,
+      "typeBuff": "Add"
+    },
+    {
+      "typeStat": "HP",
+      "amount": 0.05,
+      "typeBuff": "Mult"
+    }
+  ],
+  "descriptionStat": "<sprite name=ar_icon> +55",
+  "descriptionPassive": "Nhận 5% Máu tối đa.\nKhi bị trúng đòn đánh bất kì, gây 100 sát thương phép lên tất cả kẻ địch xung quanh (Hồi chiêu: 2 giây).",
+  "typeItem": "AdvancedItem",
+  "slotRequired": 1,
+  "isUnique": false,
+  "passive": {
+    "condition": "Active",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": false,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": false,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": true,
+    "delayTrigger": 0,
+    "canCrit": false,
+    "aoe": {
+      "aoePos": "Self",
+      "aoeRange": 3,
+      "maxHitNum": 99,
+      "lifeTime": 1,
+      "triggerOnHit": "EveryCollision",
+      "hitRange": 0.3
+    },
+    "hitDamage": {
+      "hitOn": "HitTarget",
+      "aoeRange": 0,
+      "aoeMultiplier": 0,
+      "damageType": "AP",
+      "ad": [
+        0
+      ],
+      "ap": [
+        100
+      ],
+      "trueDmg": [
+        0
+      ],
+      "adMultiplier": [
+        0
+      ],
+      "apMultiplier": [
+        0
+      ],
+      "adCanChange": false,
+      "apCanChange": false,
+      "trueDmgCanChange": false,
+      "adMultiplierCanChange": false,
+      "apMultiplierCanChange": false
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "65d49594ec041c3cf02eabfc"
+  },
+  "idItem": "dragons_claw",
+  "name": "Vuốt Rồng",
+  "icon": "Dragons_Claw_TFT_item",
+  "stats": [
+    {
+      "typeStat": "MR",
+      "amount": 55,
+      "typeBuff": "Add"
+    },
+    {
+      "typeStat": "HP",
+      "amount": 0.1,
+      "typeBuff": "Mult"
+    }
+  ],
+  "descriptionStat": "<sprite name=mr_icon> +55",
+  "descriptionPassive": "Nhận thêm 10% Máu tối đa.\nMỗi 2 giây, hồi lại 5% Máu tối đa.",
+  "typeItem": "AdvancedItem",
+  "slotRequired": 1,
+  "isUnique": false,
+  "passive": {
+    "heal": {
+      "extraMaxHpPercentage": [
+        0.05
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "65d4965bec041c3cf02eabfd"
+  },
+  "idItem": "rabadons_deathcap",
+  "name": "Mũ Phù Thủy Rabadon",
+  "icon": "Rabadons_Deathcap_TFT_item",
+  "stats": [
+    {
+      "typeStat": "AP",
+      "amount": 70,
+      "typeBuff": "Add"
+    }
+  ],
+  "descriptionStat": "<sprite name=ap_icon> +70",
+  "descriptionPassive": "Nhận thêm 70 Sức Mạnh Phép Thuật.",
+  "typeItem": "AdvancedItem",
+  "slotRequired": 1,
+  "isUnique": false,
+  "passive": {}
+},
+{
+  "_id": {
+    "$oid": "65d49f9dec041c3cf02eabfe"
+  },
+  "idItem": "titans_resolve",
+  "name": "Quyền Năng Khổng Lồ",
+  "icon": "Titans_Resolve_TFT_item",
+  "stats": [
+    {
+      "typeStat": "AS",
+      "amount": 0.1,
+      "typeBuff": "Mult"
+    },
+    {
+      "typeStat": "AR",
+      "amount": 20,
+      "typeBuff": "Add"
+    }
+  ],
+  "descriptionStat": "<sprite name=as_icon> +10%  <sprite name=ar_icon> +20",
+  "descriptionPassive": "Nhận 2% Sức Mạnh Công Kích và 2 Sức Manh Phép Thuật khi tấn công, cộng dồn tối đa 25 lần.\nKhi đạt tối đa cộng dồn, nhận thêm 25 Giáp và 25 Kháng Phép.",
+  "typeItem": "AdvancedItem",
+  "slotRequired": 1,
+  "isUnique": false,
+  "passive": {
+    "increaseAD": {
+      "attackDamageMult": [
+        0.02
+      ]
+    },
+    "increaseAP": {
+      "abilityDamageAdd": [
+        2
+      ]
+    },
+    "increaseAR": {
+      "armorAdd": [
+        25
+      ]
+    },
+    "increaseMR": {
+      "magicResistanceAdd": [
+        25
+      ]
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "65d86bc0c889cef1c0d77e5e"
+  },
+  "idItem": "last_whisper",
+  "name": "Cung Xanh",
+  "icon": "Last_Whisper_item_old",
+  "stats": [
+    {
+      "typeStat": "AD",
+      "amount": 0.15,
+      "typeBuff": "Mult"
+    },
+    {
+      "typeStat": "AS",
+      "amount": 0.25,
+      "typeBuff": "Mult"
+    },
+    {
+      "typeStat": "CritChance",
+      "amount": 0.2,
+      "typeBuff": "Add"
+    }
+  ],
+  "descriptionStat": "<sprite name=ad_icon> +15%  <sprite name=as_icon> +25%  <sprite name=crit-chance_icon> +20%",
+  "descriptionPassive": "Đòn đánh thường sẽ khiến kẻ địch giảm 30% Giáp trong 3 giây. Hiệu ứng này không cộng dồn.\n\n[Duy nhất - chỉ 1 mỗi tướng]",
+  "typeItem": "AdvancedItem",
+  "slotRequired": 1,
+  "isUnique": true,
+  "passive": {
+    "condition": "Active",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": true,
+    "canUseSelf": false,
+    "canBeSilenced": false,
+    "searchAmong": "Enemies",
+    "isTriggerChAnim": false,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": false,
+    "delayTrigger": 0,
+    "canCrit": false,
+    "decreaseAR": {
+      "buffID": "last_whisper_decreaseAR_enemy",
+      "buffOn": "Target",
+      "maxHitNum": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        3
+      ],
+      "destroyOnLifeEnding": true,
+      "addType": "UpdateLifetime",
+      "lifeTimeCanChange": false,
+      "armorAdd": [
+        0
+      ],
+      "armorMult": [
+        0.3
+      ],
+      "armorAddCanChange": false,
+      "armorMultCanChange": false
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "65d88f5cc889cef1c0d77e5f"
+  },
+  "idItem": "blue_buff",
+  "name": "Bùa Xanh",
+  "icon": "Blue_Buff_TFT_item",
+  "stats": [
+    {
+      "typeStat": "MP",
+      "amount": 40,
+      "typeBuff": "Add"
+    }
+  ],
+  "descriptionStat": "<sprite name=mp_icon> +40",
+  "descriptionPassive": "Nhận 20 Năng lượng sau khi sử dụng kỹ năng.\n\n[Duy nhất - chỉ 1 mỗi tướng]",
+  "typeItem": "AdvancedItem",
+  "slotRequired": 1,
+  "isUnique": true,
+  "passive": {}
+},
+{
+  "_id": {
+    "$oid": "65db744303d8b88c65007d0c"
+  },
+  "idItem": "bloodthirster",
+  "name": "Huyết Kiếm",
+  "icon": "Bloodthirster_TFT_item",
+  "stats": [
+    {
+      "typeStat": "AD",
+      "amount": 0.2,
+      "typeBuff": "Mult"
+    },
+    {
+      "typeStat": "AP",
+      "amount": 15,
+      "typeBuff": "Add"
+    },
+    {
+      "typeStat": "MR",
+      "amount": 20,
+      "typeBuff": "Add"
+    },
+    {
+      "typeStat": "PV",
+      "amount": 0.2,
+      "typeBuff": "Add"
+    },
+    {
+      "typeStat": "SV",
+      "amount": 0.2,
+      "typeBuff": "Add"
+    }
+  ],
+  "descriptionStat": "<sprite name=ad_icon> +20%  <sprite name=ap_icon> +15  <sprite name=mr_icon> +20",
+  "descriptionPassive": "Tăng 20% Hút Máu Toàn Phần.\nMột lần mỗi giao tranh: Khi còn dưới 40% Máu, nhận một lá chắn tương đương 25% Máu tối đa, tồn tại trong 5 giây.",
+  "typeItem": "AdvancedItem",
+  "slotRequired": 1,
+  "isUnique": false,
+  "passive": {
+    "condition": "Passive",
+    "skillRange": 1,
+    "targetFilter": "None",
+    "needTarget": false,
+    "canUseSelf": true,
+    "canBeSilenced": false,
+    "searchAmong": "Allies",
+    "isTriggerChAnim": false,
+    "isScaleAnimWithAS": false,
+    "couldInterrupt": false,
+    "canMoveWhenCast": true,
+    "delayTrigger": 0,
+    "canCrit": false,
+    "shield": {
+      "buffID": "bloodthirster_shield_self",
+      "buffOn": "Allies",
+      "buffRange": 1,
+      "haveLifeTime": true,
+      "lifeTime": [
+        5
+      ],
+      "destroyOnLifeEnding": true,
+      "addType": "None",
+      "lifeTimeCanChange": false,
+      "shieldAmount": [
+        0
+      ],
+      "extraMaxHpPercentage": [
+        0.25
+      ],
+      "extraCurrentHpPercentage": [
+        0
+      ],
+      "extraMissingHpPercentage": [
+        0
+      ],
+      "shieldAmountCanChange": false,
+      "extraMaxHpPercentageCanChange": false,
+      "extraCurrentHpPercentageCanChange": false,
+      "extraMissingHpPercentageCanChange": false,
+      "maxHit": [
+        1
+      ],
+      "maxHitCanChange": false
+    }
+  }
+}]
